@@ -1,0 +1,19 @@
+{
+  "name": "zeko-jobs/featured",
+  "title": "Zeko Featured Jobs",
+  "category": "widgets",
+  "icon": "star-filled",
+  "description": "Display a grid of featured job listings.",
+  "textdomain": "zeko-jobs",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "limit": {
+      "type": "number",
+      "default": 6
+    }
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./style.css"
+}

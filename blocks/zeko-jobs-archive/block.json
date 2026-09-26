@@ -1,0 +1,27 @@
+{
+  "name": "zeko-jobs/archive",
+  "title": "Zeko Jobs Archive",
+  "category": "widgets",
+  "icon": "list-view",
+  "description": "Display the jobs archive with filters and search.",
+  "textdomain": "zeko-jobs",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "limit": {
+      "type": "number",
+      "default": 10
+    },
+    "showFilters": {
+      "type": "boolean",
+      "default": true
+    },
+    "showSearch": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./style.css"
+}

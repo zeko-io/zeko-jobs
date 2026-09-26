@@ -1,0 +1,141 @@
+THIRD-PARTY NOTICES — Zeko Jobs
+===============================
+
+Zeko Jobs bundles three third-party JavaScript libraries plus their images.
+Everything else in this package (includes/**, templates/**, blocks/**,
+assets/css/*, assets/js/*, languages/*, screenshot-1.png) is original Zeko
+code/asset work licensed GPL-2.0-or-later (see the plugin header). Zeko Jobs
+ships no fonts or icon libraries (its icons are WordPress core "dashicons").
+Outbound requests are documented in REMOTE-SERVICES.txt in this folder.
+
+-------------------------------------------------------------------------------
+1. Chart.js v4.4.7 (MIT)  [BUNDLED]
+-------------------------------------------------------------------------------
+File     : assets/vendor/chartjs/chart.umd.min.js
+Enqueued : includes/public/class-zeko-jobs-public.php (lines 136-138) for the
+           employer analytics dashboard chart.
+Project  : https://www.chartjs.org/  |  Source: https://github.com/chartjs/Chart.js
+Bundled header (verbatim): "Chart.js v4.4.7 ... (c) 2024 Chart.js Contributors"
+License : MIT (full text below). GPL-2.0-or-later compatible.
+
+MIT License — Copyright (c) 2024 Chart.js Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-------------------------------------------------------------------------------
+2. Leaflet 1.9.4 (BSD-2-Clause)  [BUNDLED]
+-------------------------------------------------------------------------------
+Files    : assets/vendor/leaflet/leaflet.js
+           assets/vendor/leaflet/leaflet.css
+           assets/vendor/leaflet/images/{marker-icon,marker-shadow,layers,layers-2x}.png
+Enqueued : includes/public/class-zeko-jobs-public.php (lines 120-121) for the
+           job-location map.
+Project  : https://leafletjs.com/  |  Source: https://github.com/Leaflet/Leaflet
+Bundled header (verbatim): "Leaflet 1.9.4, a JS library for interactive maps.
+(c) 2010-2023 Vladimir Agafonkin, (c) 2010-2011 CloudMade"
+License : BSD 2-Clause (full text below). GPL-2.0-or-later compatible.
+
+BSD 2-Clause License — Copyright (c) 2010-2023 Vladimir Agafonkin
+Copyright (c) 2010-2011 CloudMade. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+-------------------------------------------------------------------------------
+3. Sortable (SortableJS) v1.15.6 (MIT)  [BUNDLED]
+-------------------------------------------------------------------------------
+File     : assets/vendor/sortable/Sortable.min.js
+Injected : includes/public/class-zeko-jobs-shortcodes.php (line 2837) for the
+           drag-and-drop application-pipeline kanban board.
+Project  : https://sortablejs.com/  |  Source: https://github.com/SortableJS/Sortable
+Bundled header (verbatim): "Sortable 1.15.6 - MIT | git://github.com/SortableJS/Sortable.git"
+License : MIT (same text as section 1 above, copyright held by SortableJS
+contributors). GPL-2.0-or-later compatible.
+
+-------------------------------------------------------------------------------
+4. Composer packages — DEV-ONLY, NOT DISTRIBUTED
+-------------------------------------------------------------------------------
+composer.json (this package) declares NO runtime PHP dependencies
+("require": { "php": ">=7.4" } only). The installed vendor/ tree consists
+entirely of require-dev test/lint tooling. .distignore excludes /vendor,
+composer.json, composer.lock and phpunit.xml(.dist) from the release ZIP, so
+none of these packages are shipped with the distributed plugin.
+
+Installed dev dependencies (from vendor/composer/installed.json, license as
+declared in each package's composer.json):
+
+  dealerdirect/phpcodesniffer-composer-installer v1.2.1        MIT
+  myclabs/deep-copy 1.13.4                                     MIT
+  nikic/php-parser v5.8.0                                      BSD-3-Clause
+  phar-io/manifest 2.0.4                                       BSD-3-Clause
+  phar-io/version 3.2.1                                        BSD-3-Clause
+  phpcompatibility/php-compatibility 9.3.5                     LGPL-3.0-or-later
+  phpcompatibility/phpcompatibility-paragonie 1.3.4            LGPL-3.0-or-later
+  phpcompatibility/phpcompatibility-wp 2.1.8                   LGPL-3.0-or-later
+  phpcsstandards/phpcsextra 1.5.0                              LGPL-3.0-or-later
+  phpcsstandards/phpcsutils 1.2.2                              LGPL-3.0-or-later
+  phpunit/php-code-coverage 10.1.16                            BSD-3-Clause
+  phpunit/php-file-iterator 4.1.0                              BSD-3-Clause
+  phpunit/php-invoker 4.0.0                                    BSD-3-Clause
+  phpunit/php-text-template 3.0.1                              BSD-3-Clause
+  phpunit/php-timer 6.0.0                                      BSD-3-Clause
+  phpunit/phpunit 10.5.64                                      BSD-3-Clause
+  sebastian/cli-parser 2.0.1                                   BSD-3-Clause
+  sebastian/code-unit 2.0.0                                    BSD-3-Clause
+  sebastian/code-unit-reverse-lookup 3.0.0                     BSD-3-Clause
+  sebastian/comparator 5.0.5                                   BSD-3-Clause
+  sebastian/complexity 3.2.0                                   BSD-3-Clause
+  sebastian/diff 5.1.1                                         BSD-3-Clause
+  sebastian/environment 6.1.0                                  BSD-3-Clause
+  sebastian/exporter 5.1.4                                     BSD-3-Clause
+  sebastian/global-state 6.0.2                                 BSD-3-Clause
+  sebastian/lines-of-code 2.0.2                                 BSD-3-Clause
+  sebastian/object-enumerator 5.0.0                            BSD-3-Clause
+  sebastian/object-reflector 3.0.0                             BSD-3-Clause
+  sebastian/recursion-context 5.0.1                            BSD-3-Clause
+  sebastian/type 4.0.0                                         BSD-3-Clause
+  sebastian/version 4.0.1                                      BSD-3-Clause
+  squizlabs/php_codesniffer 3.13.5                             BSD-3-Clause
+  theseer/tokenizer 1.3.1                                      BSD-3-Clause
+  wp-coding-standards/wpcs 3.4.0                               MIT
+
+GPL-compatibility note: the LGPL-3.0-or-later dev packages listed above are
+NOT compatible with GPL-2.0-or-later and therefore must never be distributed
+in the plugin package. They are dev-only (PHP_CodeSniffer standards for
+linting and CI) and are stripped from the release build via .distignore, so
+this constraint is honoured in practice. If they were ever shipped, the
+GPL-2.0 distribution would be violated; keep the vendor/ exclusion in place.

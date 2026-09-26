@@ -1,0 +1,832 @@
+/* ===== Messaging System Styles ===== */
+
+/* Messaging Container */
+.zeko-messaging {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.zeko-messaging-container {
+    display: flex;
+    background: var(--color-bg-white);
+    border-radius: var(--radius-md);
+    box-shadow: 0 2px 10px var(--shadow-md);
+    overflow: hidden;
+    min-height: 600px;
+}
+
+/* Conversations List */
+.zeko-conversations-list {
+    width: 350px;
+    border-right: 1px solid var(--color-border-light);
+    display: flex;
+    flex-direction: column;
+    background: var(--color-bg-light);
+}
+
+.zeko-conversations-header {
+    padding: 15px;
+    border-bottom: 1px solid var(--color-border-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-bg-white);
+}
+
+.zeko-conversations-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color-text);
+    margin: 0;
+}
+
+.zeko-new-message-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+.zeko-search-messages {
+    padding: 15px;
+    background: var(--color-bg-white);
+}
+
+.zeko-message-search {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    font-size: 14px;
+}
+
+.zeko-conversations {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.zeko-conversation-item {
+    display: flex;
+    padding: 12px;
+    background: var(--color-bg-white);
+    border-radius: var(--radius-sm);
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.zeko-conversation-item:hover {
+    background: var(--color-bg-light);
+    transform: translateX(2px);
+}
+
+.zeko-conversation-item.active {
+    background: #e8f4fc;
+    border-left: 3px solid var(--color-primary);
+}
+
+.zeko-conversation-avatar {
+    width: 50px;
+    height: 50px;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+.zeko-conversation-avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.zeko-conversation-info {
+    flex: 1;
+    overflow: hidden;
+}
+
+.zeko-conversation-user {
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+.zeko-conversation-preview {
+    font-size: 13px;
+    color: var(--color-text-muted);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.zeko-conversation-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-left: 8px;
+}
+
+.zeko-unread-count {
+    background: var(--color-danger);
+    color: var(--color-text-on-primary);
+    border-radius: 10px;
+    padding: 2px 6px;
+    font-size: 11px;
+    font-weight: 600;
+    min-width: 18px;
+    text-align: center;
+}
+
+.zeko-conversation-time {
+    font-size: 11px;
+    color: var(--color-text-muted);
+    margin-top: 4px;
+}
+
+.zeko-no-conversations {
+    text-align: center;
+    padding: 40px 20px;
+    color: var(--color-text-muted);
+    font-style: italic;
+}
+
+/* Message Area */
+.zeko-message-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.zeko-no-conversation-selected {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+    color: var(--color-text-muted);
+}
+
+.zeko-no-conversation-icon {
+    font-size: 48px;
+    color: var(--color-bg-muted);
+    margin-bottom: 15px;
+}
+
+.zeko-no-conversation-icon .dashicons {
+    font-size: 48px;
+}
+
+.zeko-message-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-bg-white);
+}
+
+.zeko-message-header {
+    padding: 15px;
+    border-bottom: 1px solid var(--color-border-light);
+    display: flex;
+    align-items: center;
+    background: var(--color-bg-light);
+}
+
+.zeko-back-to-conversations {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: var(--color-primary);
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.zeko-conversation-title {
+    flex: 1;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-text);
+    margin: 0;
+}
+
+.zeko-conversation-actions {
+    margin-left: auto;
+}
+
+.zeko-conversation-settings {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: var(--color-text-muted);
+    cursor: pointer;
+    padding: 5px;
+}
+
+.zeko-messages-container {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.zeko-messages-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.zeko-load-more-messages {
+    padding: 15px;
+    text-align: center;
+}
+
+.zeko-load-more-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+/* Message Bubbles */
+.zeko-message {
+    display: flex;
+    max-width: 70%;
+    animation: zeko-fade-in 0.2s ease;
+}
+
+.zeko-message-sent {
+    margin-left: auto;
+    flex-direction: row-reverse;
+}
+
+.zeko-message-received {
+    margin-right: auto;
+    flex-direction: row;
+}
+
+.zeko-message-avatar {
+    width: 32px;
+    height: 32px;
+    margin: 0 10px;
+}
+
+.zeko-message-avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.zeko-message-content {
+    flex: 1;
+    padding: 12px 15px;
+    border-radius: var(--radius-lg);
+    position: relative;
+    word-wrap: break-word;
+}
+
+.zeko-message-sent .zeko-message-content {
+    background: var(--color-primary);
+    color: var(--color-text-on-primary);
+    border-bottom-right-radius: 4px;
+}
+
+.zeko-message-received .zeko-message-content {
+    background: var(--color-bg-light);
+    color: var(--color-text);
+    border-bottom-left-radius: 4px;
+}
+
+.zeko-message-sender {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: var(--color-primary);
+}
+
+.zeko-message-text {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 6px;
+}
+
+.zeko-message-text p {
+    margin: 0 0 8px 0;
+}
+
+.zeko-message-meta {
+    display: flex;
+    gap: 10px;
+    font-size: 11px;
+    opacity: 0.8;
+}
+
+.zeko-message-time {
+    color: inherit;
+}
+
+.zeko-message-status {
+    color: inherit;
+    font-style: italic;
+}
+
+.zeko-no-messages {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-text-muted);
+    font-style: italic;
+    text-align: center;
+}
+
+/* Message Compose */
+.zeko-message-compose {
+    padding: 15px;
+    border-top: 1px solid var(--color-border-light);
+    background: var(--color-bg-light);
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.zeko-message-input {
+    flex: 1;
+    padding: 12px 15px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-pill);
+    font-size: 14px;
+    resize: none;
+    min-height: 48px;
+    max-height: 120px;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.zeko-message-input:focus {
+    border-color: var(--color-primary);
+}
+
+.zeko-compose-actions {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.zeko-add-attachment {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: var(--color-text-muted);
+    cursor: pointer;
+    padding: 8px;
+}
+
+.zeko-send-message-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: var(--radius-pill);
+}
+
+/* New Message Modal */
+.zeko-new-message-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    animation: zeko-fade-in 0.2s ease;
+}
+
+.zeko-new-message-content {
+    background: var(--color-bg-white);
+    border-radius: var(--radius-md);
+    width: 500px;
+    max-width: 90%;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 5px 20px var(--shadow-lg);
+    animation: zeko-slide-up 0.2s ease;
+}
+
+.zeko-new-message-header {
+    padding: 20px;
+    border-bottom: 1px solid var(--color-border-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.zeko-new-message-header h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.zeko-close-new-message {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: var(--color-text-muted);
+    cursor: pointer;
+    padding: 5px;
+}
+
+.zeko-new-message-body {
+    padding: 20px;
+}
+
+.zeko-new-message-body .form-group {
+    margin-bottom: 15px;
+}
+
+.zeko-new-message-body label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: var(--color-text);
+}
+
+.zeko-recipient-search,
+.zeko-new-message-text {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.zeko-recipient-search:focus,
+.zeko-new-message-text:focus {
+    border-color: var(--color-primary);
+}
+
+.zeko-user-search-results {
+    margin-top: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-sm);
+}
+
+.zeko-user-result {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    align-items: center;
+    transition: background 0.2s ease;
+}
+
+.zeko-user-result:hover {
+    background: var(--color-bg-light);
+}
+
+.zeko-user-avatar {
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+
+.zeko-user-avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.zeko-user-info {
+    flex: 1;
+}
+
+.zeko-user-name {
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: 4px;
+}
+
+.zeko-user-username {
+    font-size: 13px;
+    color: var(--color-text-muted);
+}
+
+.zeko-no-results {
+    padding: 15px;
+    text-align: center;
+    color: var(--color-text-muted);
+    font-style: italic;
+}
+
+.zeko-new-message-footer {
+    padding: 20px;
+    border-top: 1px solid var(--color-border-light);
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.zeko-cancel-new-message {
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.zeko-send-new-message {
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+/* Message Inbox Widget */
+.zeko-message-inbox-widget {
+    background: var(--color-bg-white);
+    border-radius: var(--radius-md);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    overflow: hidden;
+}
+
+.zeko-message-inbox-widget .zeko-widget-header {
+    padding: 15px;
+    border-bottom: 1px solid var(--color-border-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.zeko-message-inbox-widget .zeko-widget-title {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.zeko-message-inbox-widget .zeko-view-all {
+    color: var(--color-primary);
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.zeko-message-inbox-widget .zeko-widget-content {
+    padding: 15px;
+}
+
+.zeko-unread-messages {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: var(--radius-sm);
+}
+
+.zeko-unread-messages a {
+    color: var(--color-text);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.zeko-unread-messages strong {
+    color: var(--color-danger);
+    font-size: 16px;
+}
+
+.zeko-recent-conversations-list {
+    margin-bottom: 15px;
+}
+
+.zeko-recent-conversation {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: var(--color-bg-light);
+    border-radius: var(--radius-sm);
+    align-items: center;
+}
+
+.zeko-recent-conversation .zeko-conversation-avatar {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.zeko-recent-conversation .zeko-conversation-info {
+    flex: 1;
+    overflow: hidden;
+}
+
+.zeko-recent-conversation .zeko-conversation-user {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.zeko-recent-conversation .zeko-conversation-preview {
+    font-size: 12px;
+    color: var(--color-text-muted);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.zeko-recent-conversation .zeko-unread-count {
+    background: var(--color-danger);
+    color: var(--color-text-on-primary);
+    border-radius: 10px;
+    padding: 2px 6px;
+    font-size: 11px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.zeko-new-message-dashboard {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: var(--radius-sm);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .zeko-messaging-container {
+        flex-direction: column;
+    }
+
+    .zeko-conversations-list {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid var(--color-border-light);
+    }
+
+    .zeko-message-area {
+        min-height: 400px;
+    }
+
+    .zeko-new-message-content {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    /* Mobile view toggle */
+    .zeko-hidden-mobile {
+        display: none !important;
+    }
+
+    .zeko-visible-mobile {
+        display: flex !important;
+        flex: 1;
+        min-height: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .zeko-conversations-header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .zeko-new-message-btn {
+        width: 100%;
+    }
+
+    .zeko-message-compose {
+        flex-direction: column;
+    }
+
+    .zeko-compose-actions {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .zeko-add-attachment,
+    .zeko-send-message-btn {
+        flex: 1;
+    }
+}
+
+/* Admin Bar Unread Count */
+.zeko-adminbar-unread {
+    background: var(--color-danger);
+    color: var(--color-text-on-primary);
+    border-radius: 10px;
+    padding: 2px 6px;
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+/* Message templates + search + typing (2.1.4) */
+.zeko-conversations-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.zeko-templates-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.zeko-message-search-results {
+    max-height: 260px;
+    overflow-y: auto;
+    border: 1px solid var(--color-border-light);
+    border-radius: 6px;
+    margin: 6px 0;
+    background: var(--color-surface);
+}
+
+.zeko-search-result {
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--color-border-light);
+    cursor: pointer;
+}
+
+.zeko-search-result:hover {
+    background: var(--color-surface-hover, rgba(128,128,128,0.08));
+}
+
+.zeko-search-result-name {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.zeko-search-result-snippet {
+    font-size: 12px;
+    color: var(--color-text-secondary);
+    margin: 2px 0;
+}
+
+.zeko-search-result-date {
+    font-size: 11px;
+    color: var(--color-text-muted);
+}
+
+.zeko-typing-indicator {
+    margin-left: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: var(--color-text-muted);
+    animation: zeko-typing-pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes zeko-typing-pulse {
+    0%, 100% { opacity: 0.5; }
+    50% { opacity: 1; }
+}
+
+.zeko-template-picker {
+    max-width: 220px;
+    padding: 6px 8px;
+    border: 1px solid var(--color-border-light);
+    border-radius: 6px;
+    font-size: 13px;
+}
+
+.zeko-templates-content {
+    width: 100%;
+    max-width: 520px;
+}
+
+.zeko-template-list {
+    max-height: 220px;
+    overflow-y: auto;
+    margin-bottom: 12px;
+}
+
+.zeko-template-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 8px 10px;
+    border: 1px solid var(--color-border-light);
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+
+.zeko-template-title {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.zeko-template-actions {
+    display: flex;
+    gap: 6px;
+    flex-shrink: 0;
+}
+
+.zeko-template-message {
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.zeko-template-form {
+    padding-top: 4px;
+}

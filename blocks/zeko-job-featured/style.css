@@ -1,0 +1,10 @@
+.zeko-jobs-block-preview {
+  padding: 20px;
+  border: 2px dashed #ccd0d4;
+  border-radius: 8px;
+  background: #fff;
+}
+.zeko-jobs-block-preview p {
+  margin: 0 0 12px 0;
+  font-weight: 600;
+}

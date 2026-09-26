@@ -1,0 +1,62 @@
+REMOTE SERVICES — Zeko Jobs
+===========================
+
+This file documents every outbound network request performed by Zeko Jobs'
+own code and the client-side embeds it renders. The readme.txt "External
+services" section covers the who/when/retention questions; this file adds the
+exact endpoints and data fields, with file:line citations.
+
+-------------------------------------------------------------------------------
+1. LinkedIn OAuth 2.0 ("Apply with LinkedIn" / profile import)
+-------------------------------------------------------------------------------
+Endpoints:
+   a) Browser redirect to LinkedIn authorization (client-side):
+      https://www.linkedin.com/oauth/v2/authorization
+      Query params: response_type=code, client_id, redirect_uri,
+      scope=openid+profile+email, state (a WP nonce).
+      Code: includes/class-zeko-jobs-linkedin.php lines 69-81.
+   b) Token exchange (server-side POST):
+      https://www.linkedin.com/oauth/v2/accessToken
+      POST body (form): grant_type=authorization_code, code, redirect_uri,
+      client_id, client_secret.
+      Code: includes/class-zeko-jobs-linkedin.php lines 116-129.
+   c) Profile fetch (server-side GET):
+      https://api.linkedin.com/v2/userinfo
+      Header: Authorization: Bearer <access_token>.
+      Receives: sub, name, given_name, family_name, email, picture.
+      Code: includes/class-zeko-jobs-linkedin.php lines 143-156.
+Data sent : LinkedIn app credentials (client_id/client_secret, admin-provided),
+            the one-time authorization code, and the OAuth redirect URI.
+Stored   : the returned OpenID profile fields are saved as user meta
+           (zeko_linkedin_profile) on the connecting WP user.
+When      : only when an admin configures a LinkedIn app and a user chooses to
+           connect/apply with LinkedIn. No nonce-validated flow, no request.
+Privacy  : LinkedIn's policies apply to the exchange; profile fields can be
+           deleted via the plugin's disconnect handler / GDPR erase tools.
+
+-------------------------------------------------------------------------------
+2. Nominatim (OpenStreetMap) geocoding (server-side)
+-------------------------------------------------------------------------------
+Endpoint : GET https://nominatim.openstreetmap.org/search
+Query    : q=<location string>, format=json, limit=1
+Header   : User-Agent: ZekoJobs/2.2 (job-board)
+Code     : includes/public/class-zeko-jobs-ajax.php lines 1216-1227.
+Data sent: the free-text location entered by an employer (city/region/country).
+Retention: the resolved lat/lng is cached in a transient for 1 month
+           (zeko_geocode_<md5>). Nominatim keeps only standard request logs
+           (see policies at osm.org).
+When     : whenever a job location is geocoded (resume-style job posting with
+           maps). Results are required for the Leaflet map/tile display.
+Tile images displayed on the map are fetched by the visitor's browser from the
+OpenStreetMap tile servers configured for the Leaflet map.
+
+-------------------------------------------------------------------------------
+3. WP core oEmbed proxy for company videos (server-side)
+-------------------------------------------------------------------------------
+templates/company-profile.php line 89 calls wp_oembed_get() on a company's
+video URL. WordPress core may proxy an oEmbed discovery request to the video
+provider (e.g. youtube.com, vimeo.com) to build the embed markup, then the
+visitor's browser loads the resulting player (see zeko-learn's embed notes for
+the same providers). Optional: only used when an employer enters a video URL.
+
+No other outbound HTTP requests are made by Zeko Jobs.
