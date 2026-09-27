@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zeko-jobs 2.1.4\n"
 "Report-Msgid-Bugs-To: https://zeko.io\n"
-"POT-Creation-Date: 2026-09-25 08:10+00:00\n"
+"POT-Creation-Date: 2026-09-27 15:06+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Generator: zeko make-pot\n"
 
 #. translators: 1: number sent, 2: number failed
-#: includes/public/class-zeko-jobs-ajax.php:3238
+#: includes/public/class-zeko-jobs-ajax.php:3247
 #, php-format
 msgid "%1$d emails sent, %2$d failed."
 msgstr ""
@@ -35,7 +35,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. translators: 1: number of matched skills. 2: total required skills
-#: includes/public/class-zeko-jobs-ajax.php:4400
+#: includes/public/class-zeko-jobs-ajax.php:4409
 #: includes/public/class-zeko-jobs-shortcodes.php:817
 #, php-format
 msgid "%1$d/%2$d skills"
@@ -66,19 +66,19 @@ msgid "%1$s posted \"%2$s\" — check it out!"
 msgstr ""
 
 #. translators: %1$s: employer name, %2$s: formatted date/time
-#: includes/public/class-zeko-jobs-ajax.php:2232
+#: includes/public/class-zeko-jobs-ajax.php:2241
 #, php-format
 msgid "%1$s scheduled an interview for %2$s"
 msgstr ""
 
 #. translators: %1$s: seeker name, %2$s: job title
-#: includes/public/class-zeko-jobs-ajax.php:954
+#: includes/public/class-zeko-jobs-ajax.php:963
 #, php-format
 msgid "%1$s withdrew their application for \"%2$s\""
 msgstr ""
 
 #. translators: %d: number of answers
-#: templates/single-job.php:577 templates/single-job.php:592
+#: templates/single-job.php:579 templates/single-job.php:594
 #, php-format
 msgid "%d answer"
 msgid_plural "%d answers"
@@ -86,7 +86,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %d: number of applicants
-#: includes/public/class-zeko-jobs-ajax.php:4369
+#: includes/public/class-zeko-jobs-ajax.php:4378
 #: includes/public/class-zeko-jobs-shortcodes.php:776
 #, php-format
 msgid "%d applicant"
@@ -103,7 +103,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %d: number of followers
-#: templates/company-profile.php:64
+#: templates/company-profile.php:66
 #, php-format
 msgid "%d follower"
 msgid_plural "%d followers"
@@ -130,13 +130,13 @@ msgstr ""
 
 #. translators: %d: number of jobs
 #: includes/public/class-zeko-jobs-shortcodes.php:2566
-#: templates/single-job.php:350
+#: templates/single-job.php:352
 #, php-format
 msgid "%d jobs"
 msgstr ""
 
 #. translators: %d: number of updated jobs
-#: includes/public/class-zeko-jobs-ajax.php:1611
+#: includes/public/class-zeko-jobs-ajax.php:1620
 #, php-format
 msgid "%d jobs updated."
 msgstr ""
@@ -150,7 +150,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %d: number of reviews
-#: templates/company-profile.php:166
+#: templates/company-profile.php:168
 #, php-format
 msgid "%d review"
 msgid_plural "%d reviews"
@@ -158,7 +158,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %d: star rating number
-#: templates/company-profile.php:206 templates/single-job.php:472
+#: templates/company-profile.php:208 templates/single-job.php:474
 #, php-format
 msgid "%d star"
 msgstr ""
@@ -176,7 +176,7 @@ msgid "%d%% match with your profile"
 msgstr ""
 
 #. translators: %d: profile match percentage
-#: includes/public/class-zeko-jobs-ajax.php:4389
+#: includes/public/class-zeko-jobs-ajax.php:4398
 #: includes/public/class-zeko-jobs-shortcodes.php:806
 #, php-format
 msgid "%d%% profile match"
@@ -223,7 +223,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %s: view count
-#: templates/single-job.php:162
+#: templates/single-job.php:164
 #, php-format
 msgid "%s view"
 msgid_plural "%s views"
@@ -231,7 +231,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %d: number of reviews
-#: templates/single-job.php:461
+#: templates/single-job.php:463
 #, php-format
 msgid "(%d review)"
 msgid_plural "(%d reviews)"
@@ -352,7 +352,7 @@ msgstr ""
 msgid "A candidate"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:4037
+#: includes/public/class-zeko-jobs-ajax.php:4046
 msgid "A deletion request is already pending."
 msgstr ""
 
@@ -375,16 +375,16 @@ msgid "AI Assistant"
 msgstr ""
 
 #: includes/public/class-zeko-jobs-shortcodes.php:3139
-#: templates/company-profile.php:82
+#: templates/company-profile.php:84
 msgid "About"
 msgstr ""
 
 #: includes/public/class-zeko-jobs-shortcodes.php:1423
-#: templates/single-job.php:761
+#: templates/single-job.php:763
 msgid "About the Company"
 msgstr ""
 
-#: templates/single-job.php:361
+#: templates/single-job.php:363
 msgid "About this job"
 msgstr ""
 
@@ -396,7 +396,7 @@ msgstr ""
 msgid "Accepted formats: PDF, DOC, DOCX. Max file size applies."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1859
+#: includes/public/class-zeko-jobs-ajax.php:1868
 #: includes/public/class-zeko-jobs-messaging.php:878
 #: includes/public/class-zeko-jobs-messaging.php:972
 #: includes/public/class-zeko-jobs-messaging.php:1045
@@ -482,27 +482,27 @@ msgstr ""
 msgid "Alert Name"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3777
+#: includes/public/class-zeko-jobs-ajax.php:3786
 msgid "Alert activated."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3715
+#: includes/public/class-zeko-jobs-ajax.php:3724
 msgid "Alert created."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3744
+#: includes/public/class-zeko-jobs-ajax.php:3753
 msgid "Alert deleted."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3768
+#: includes/public/class-zeko-jobs-ajax.php:3777
 msgid "Alert not found."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3777
+#: includes/public/class-zeko-jobs-ajax.php:3786
 msgid "Alert paused."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3696
+#: includes/public/class-zeko-jobs-ajax.php:3705
 msgid "Alert updated."
 msgstr ""
 
@@ -520,7 +520,7 @@ msgstr ""
 
 #: includes/public/class-zeko-jobs-shortcodes.php:2725
 #: includes/public/class-zeko-jobs-shortcodes.php:2801
-#: templates/single-job.php:320
+#: templates/single-job.php:322
 msgid "All Jobs"
 msgstr ""
 
@@ -537,11 +537,11 @@ msgstr ""
 msgid "All Types"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3175
+#: includes/public/class-zeko-jobs-ajax.php:3184
 msgid "All fields are required."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2715
+#: includes/public/class-zeko-jobs-ajax.php:2724
 msgid "All notifications marked as read."
 msgstr ""
 
@@ -570,7 +570,7 @@ msgstr ""
 msgid "Analytics"
 msgstr ""
 
-#: templates/single-job.php:491
+#: templates/single-job.php:493
 msgid "Anonymous"
 msgstr ""
 
@@ -582,7 +582,7 @@ msgstr ""
 msgid "Any Time"
 msgstr ""
 
-#: templates/single-job.php:858
+#: templates/single-job.php:860
 msgid "Anything the moderation team should know..."
 msgstr ""
 
@@ -591,7 +591,7 @@ msgid "Applicant"
 msgstr ""
 
 #: includes/public/class-zeko-jobs-shortcodes.php:1320
-#: templates/single-job.php:420
+#: templates/single-job.php:422
 msgid "Application Deadline"
 msgstr ""
 
@@ -604,7 +604,7 @@ msgstr ""
 msgid "Application Pipeline"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:891
+#: includes/public/class-zeko-jobs-ajax.php:900
 msgid "Application Update"
 msgstr ""
 
@@ -614,7 +614,7 @@ msgstr ""
 msgid "Application Update: \"%1$s\" — %2$s"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:951
+#: includes/public/class-zeko-jobs-ajax.php:960
 msgid "Application Withdrawn"
 msgstr ""
 
@@ -628,9 +628,9 @@ msgstr ""
 msgid "Application failed."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:835
-#: includes/public/class-zeko-jobs-ajax.php:1735
-#: includes/public/class-zeko-jobs-ajax.php:2186
+#: includes/public/class-zeko-jobs-ajax.php:844
+#: includes/public/class-zeko-jobs-ajax.php:1744
+#: includes/public/class-zeko-jobs-ajax.php:2195
 msgid "Application not found."
 msgstr ""
 
@@ -642,12 +642,12 @@ msgstr ""
 msgid "Application reminder"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:566
-#: includes/public/class-zeko-jobs-ajax.php:1393
+#: includes/public/class-zeko-jobs-ajax.php:575
+#: includes/public/class-zeko-jobs-ajax.php:1402
 msgid "Application submitted successfully."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3154
+#: includes/public/class-zeko-jobs-ajax.php:3163
 msgid "Application submitted!"
 msgstr ""
 
@@ -655,7 +655,7 @@ msgstr ""
 msgid "Application submitted."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:964
+#: includes/public/class-zeko-jobs-ajax.php:973
 #: includes/public/class-zeko-jobs-public.php:174
 msgid "Application withdrawn."
 msgstr ""
@@ -667,13 +667,13 @@ msgstr ""
 #: includes/public/class-zeko-jobs-shortcodes.php:2711
 #: includes/public/class-zeko-jobs-shortcodes.php:3302
 #: includes/public/class-zeko-jobs-shortcodes.php:3328
-#: templates/single-job.php:210
+#: templates/single-job.php:212
 msgid "Applications"
 msgstr ""
 
 #: includes/ecosystem/class-zeko-jobs-ecosystem.php:179
 #: includes/ecosystem/class-zeko-jobs-ecosystem.php:254
-#: includes/public/class-zeko-jobs-ajax.php:4411
+#: includes/public/class-zeko-jobs-ajax.php:4420
 #: includes/public/class-zeko-jobs-shortcodes.php:830
 #: includes/public/class-zeko-jobs-shortcodes.php:1601
 msgid "Applied"
@@ -684,26 +684,26 @@ msgid "Applied at"
 msgstr ""
 
 #. translators: %s: job title
-#: templates/company-profile.php:242
+#: templates/company-profile.php:244
 #, php-format
 msgid "Applied for: %s"
 msgstr ""
 
 #. translators: 1: applied count, 2: skipped count, 3: failed count
-#: includes/public/class-zeko-jobs-ajax.php:711
+#: includes/public/class-zeko-jobs-ajax.php:720
 #, php-format
 msgid "Applied to %1$d jobs. %2$d skipped (already applied). %3$d failed."
 msgstr ""
 
 #: includes/admin/class-zeko-jobs-admin.php:1710
-#: includes/public/class-zeko-jobs-ajax.php:4416
+#: includes/public/class-zeko-jobs-ajax.php:4425
 #: includes/public/class-zeko-jobs-shortcodes.php:838
 #: includes/public/class-zeko-jobs-shortcodes.php:2565
 #: includes/public/class-zeko-jobs-shortcodes.php:2830
 msgid "Apply"
 msgstr ""
 
-#: templates/single-job.php:613
+#: templates/single-job.php:615
 msgid "Apply for this Position"
 msgstr ""
 
@@ -753,7 +753,7 @@ msgstr ""
 msgid "Ask your AI assistant anything — it knows the whole site."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3933
+#: includes/public/class-zeko-jobs-ajax.php:3942
 msgid "At least 2 stages are required."
 msgstr ""
 
@@ -766,7 +766,7 @@ msgstr ""
 msgid "Auto-approve Trusted Employers"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3301
+#: includes/public/class-zeko-jobs-ajax.php:3310
 msgid "Auto-response settings saved."
 msgstr ""
 
@@ -792,7 +792,7 @@ msgstr ""
 
 #: includes/db/class-zeko-jobs-db.php:5039
 #: includes/email/class-zeko-jobs-email.php:150
-#: includes/public/class-zeko-jobs-ajax.php:884
+#: includes/public/class-zeko-jobs-ajax.php:893
 #: includes/public/class-zeko-jobs-shortcodes.php:1617
 #: includes/public/class-zeko-jobs-shortcodes.php:2715
 #: includes/public/class-zeko-jobs-shortcodes.php:2773
@@ -831,7 +831,7 @@ msgid "Basic job management (list + status + delete)."
 msgstr ""
 
 #: includes/public/class-zeko-jobs-shortcodes.php:1418
-#: templates/single-job.php:388
+#: templates/single-job.php:390
 msgid "Benefits"
 msgstr ""
 
@@ -855,25 +855,25 @@ msgstr ""
 msgid "Book 1:1 sessions with mentors who have been where you are."
 msgstr ""
 
-#: templates/single-job.php:732
+#: templates/single-job.php:734
 msgid "Bookmark Job"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:4358
+#: includes/public/class-zeko-jobs-ajax.php:4367
 #: includes/public/class-zeko-jobs-shortcodes.php:755
 msgid "Bookmark job"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:751
+#: includes/public/class-zeko-jobs-ajax.php:760
 #: includes/public/class-zeko-jobs-public.php:170
 msgid "Bookmark removed."
 msgstr ""
 
-#: templates/single-job.php:730
+#: templates/single-job.php:732
 msgid "Bookmark this job"
 msgstr ""
 
-#: templates/single-job.php:732
+#: templates/single-job.php:734
 msgid "Bookmarked"
 msgstr ""
 
@@ -891,7 +891,7 @@ msgstr ""
 
 #: includes/ecosystem/class-zeko-jobs-ecosystem.php:104
 #: includes/ecosystem/class-zeko-jobs-ecosystem.php:246
-#: includes/public/class-zeko-jobs-public.php:972
+#: includes/public/class-zeko-jobs-public.php:978
 #: includes/public/class-zeko-jobs-shortcodes.php:1531
 #: includes/public/class-zeko-jobs-shortcodes.php:1564
 #: includes/public/class-zeko-jobs-shortcodes.php:1691
@@ -923,7 +923,7 @@ msgstr ""
 msgid "Buy Listing Pack"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2376
+#: includes/public/class-zeko-jobs-ajax.php:2385
 msgid "CSV file is empty."
 msgstr ""
 
@@ -939,7 +939,7 @@ msgstr ""
 #: includes/public/class-zeko-jobs-shortcodes.php:2924
 #: includes/public/class-zeko-jobs-shortcodes.php:2994
 #: includes/public/class-zeko-jobs-shortcodes.php:3585
-#: templates/single-job.php:863
+#: templates/single-job.php:865
 msgid "Cancel"
 msgstr ""
 
@@ -957,12 +957,12 @@ msgstr ""
 msgid "Candidate Outreach"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3324
+#: includes/public/class-zeko-jobs-ajax.php:3333
 msgid "Candidate not found."
 msgstr ""
 
 #: includes/public/class-zeko-jobs-shortcodes.php:1273
-#: templates/single-job.php:423
+#: templates/single-job.php:425
 msgid "Category"
 msgstr ""
 
@@ -1026,7 +1026,7 @@ msgid ""
 msgstr ""
 
 #: includes/public/class-zeko-jobs-shortcodes.php:1022
-#: templates/single-job.php:629
+#: templates/single-job.php:631
 msgid "Click to upload or drag & drop"
 msgstr ""
 
@@ -1039,7 +1039,7 @@ msgstr ""
 #: includes/public/class-zeko-jobs-shortcodes.php:3561
 #: includes/public/class-zeko-jobs-shortcodes.php:3597
 #: includes/public/class-zeko-jobs-shortcodes.php:3659
-#: templates/single-job.php:842
+#: templates/single-job.php:844
 msgid "Close"
 msgstr ""
 
@@ -1047,7 +1047,7 @@ msgstr ""
 msgid "Close preview"
 msgstr ""
 
-#: templates/single-job.php:542
+#: templates/single-job.php:544
 msgid "Close the gap with these courses"
 msgstr ""
 
@@ -1055,7 +1055,7 @@ msgstr ""
 msgid "Closed"
 msgstr ""
 
-#: templates/single-job.php:149
+#: templates/single-job.php:151
 msgid "Closes:"
 msgstr ""
 
@@ -1063,7 +1063,7 @@ msgstr ""
 msgid "Comma-separated list of skills"
 msgstr ""
 
-#: templates/single-job.php:567
+#: templates/single-job.php:569
 msgid "Community Q&A"
 msgstr ""
 
@@ -1094,7 +1094,7 @@ msgstr ""
 msgid "Company Industry"
 msgstr ""
 
-#: templates/company-profile.php:258
+#: templates/company-profile.php:260
 msgid "Company Info"
 msgstr ""
 
@@ -1114,21 +1114,21 @@ msgstr ""
 
 #: includes/public/class-zeko-jobs-shortcodes.php:1356
 #: includes/public/class-zeko-jobs-shortcodes.php:3148
-#: templates/single-job.php:414
+#: templates/single-job.php:416
 msgid "Company Size"
 msgstr ""
 
-#: templates/single-job.php:774
+#: templates/single-job.php:776
 msgid "Company Size:"
 msgstr ""
 
 #. translators: %s: company size
-#: templates/company-profile.php:266
+#: templates/company-profile.php:268
 #, php-format
 msgid "Company Size: %s"
 msgstr ""
 
-#: templates/company-profile.php:89
+#: templates/company-profile.php:91
 msgid "Company Video"
 msgstr ""
 
@@ -1148,20 +1148,20 @@ msgstr ""
 msgid "Company follow"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2953
+#: includes/public/class-zeko-jobs-ajax.php:2962
 msgid "Company name is required."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2978
+#: includes/public/class-zeko-jobs-ajax.php:2987
 msgid "Company not found or you do not have permission to edit it."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1490
+#: includes/public/class-zeko-jobs-ajax.php:1499
 #: templates/company-profile.php:16 templates/company-profile.php:23
 msgid "Company not found."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2983
+#: includes/public/class-zeko-jobs-ajax.php:2992
 msgid "Company profile saved."
 msgstr ""
 
@@ -1217,16 +1217,16 @@ msgid ""
 "fill applications."
 msgstr ""
 
-#: templates/single-job.php:532
+#: templates/single-job.php:534
 msgid "Consider adding:"
 msgstr ""
 
-#: templates/company-profile.php:287
+#: templates/company-profile.php:289
 msgid "Contact"
 msgstr ""
 
 #: includes/db/class-zeko-jobs-db.php:5041
-#: includes/public/class-zeko-jobs-ajax.php:880
+#: includes/public/class-zeko-jobs-ajax.php:889
 #: includes/public/class-zeko-jobs-shortcodes.php:2717
 #: includes/public/class-zeko-jobs-shortcodes.php:2775
 #: includes/public/class-zeko-jobs-shortcodes.php:3616
@@ -1247,43 +1247,43 @@ msgstr ""
 msgid "Conversion"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3541
+#: includes/public/class-zeko-jobs-ajax.php:3550
 #: includes/public/class-zeko-jobs-shortcodes.php:2531
 #: includes/public/class-zeko-jobs-shortcodes.php:2699
 #: includes/public/class-zeko-jobs-shortcodes.php:3306
 msgid "Conversion Rate"
 msgstr ""
 
-#: templates/single-job.php:705
+#: templates/single-job.php:707
 msgid "Copy Link"
 msgstr ""
 
-#: templates/single-job.php:703
+#: templates/single-job.php:705
 msgid "Copy link"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1147
+#: includes/public/class-zeko-jobs-ajax.php:1156
 #: includes/public/class-zeko-jobs-public.php:177
 msgid "Could not add note."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2339
+#: includes/public/class-zeko-jobs-ajax.php:2348
 msgid "Could not confirm time."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3720
+#: includes/public/class-zeko-jobs-ajax.php:3729
 msgid "Could not create alert."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3746
+#: includes/public/class-zeko-jobs-ajax.php:3755
 msgid "Could not delete alert."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2045
+#: includes/public/class-zeko-jobs-ajax.php:2054
 msgid "Could not delete document."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1714
+#: includes/public/class-zeko-jobs-ajax.php:1723
 msgid "Could not delete job."
 msgstr ""
 
@@ -1291,11 +1291,11 @@ msgstr ""
 msgid "Could not delete reminder."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1836
+#: includes/public/class-zeko-jobs-ajax.php:1845
 msgid "Could not delete search."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1688
+#: includes/public/class-zeko-jobs-ajax.php:1697
 msgid "Could not duplicate job."
 msgstr ""
 
@@ -1311,71 +1311,71 @@ msgstr ""
 msgid "Could not obtain LinkedIn access token."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2312
+#: includes/public/class-zeko-jobs-ajax.php:2321
 msgid "Could not propose times."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2370
+#: includes/public/class-zeko-jobs-ajax.php:2379
 msgid "Could not read the CSV file."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1328
+#: includes/public/class-zeko-jobs-ajax.php:1337
 msgid "Could not remove reminder."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2813
+#: includes/public/class-zeko-jobs-ajax.php:2822
 msgid "Could not renew job."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1953
+#: includes/public/class-zeko-jobs-ajax.php:1962
 msgid "Could not save document."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2778
+#: includes/public/class-zeko-jobs-ajax.php:2787
 msgid "Could not save review."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1795
+#: includes/public/class-zeko-jobs-ajax.php:1804
 msgid "Could not save search."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2253
+#: includes/public/class-zeko-jobs-ajax.php:2262
 msgid "Could not schedule interview."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1303
+#: includes/public/class-zeko-jobs-ajax.php:1312
 msgid "Could not set reminder."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3144
+#: includes/public/class-zeko-jobs-ajax.php:3153
 msgid "Could not submit application."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3782
+#: includes/public/class-zeko-jobs-ajax.php:3791
 msgid "Could not toggle alert."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3701
+#: includes/public/class-zeko-jobs-ajax.php:3710
 msgid "Could not update alert."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3595
+#: includes/public/class-zeko-jobs-ajax.php:3604
 msgid "Could not update default resume."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1063
+#: includes/public/class-zeko-jobs-ajax.php:1072
 msgid "Could not update job."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3640
+#: includes/public/class-zeko-jobs-ajax.php:3649
 msgid "Could not update label."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:910
+#: includes/public/class-zeko-jobs-ajax.php:919
 msgid "Could not update status."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:967
+#: includes/public/class-zeko-jobs-ajax.php:976
 msgid "Could not withdraw application."
 msgstr ""
 
@@ -1386,7 +1386,7 @@ msgstr ""
 #: includes/public/class-zeko-jobs-shortcodes.php:862
 #: includes/public/class-zeko-jobs-shortcodes.php:1015
 #: includes/public/class-zeko-jobs-shortcodes.php:3608
-#: templates/single-job.php:620
+#: templates/single-job.php:622
 msgid "Cover Letter"
 msgstr ""
 
@@ -1439,11 +1439,11 @@ msgstr ""
 msgid "Dashboard navigation"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:571
+#: includes/public/class-zeko-jobs-ajax.php:580
 msgid "Database error. Please try again."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3543
+#: includes/public/class-zeko-jobs-ajax.php:3552
 #: includes/public/class-zeko-jobs-expiration.php:227
 msgid "Date"
 msgstr ""
@@ -1464,7 +1464,7 @@ msgstr ""
 msgid "Dating"
 msgstr ""
 
-#: templates/single-job.php:215
+#: templates/single-job.php:217
 msgid "Days Left"
 msgstr ""
 
@@ -1477,8 +1477,8 @@ msgstr ""
 msgid "Default Resume"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2614
-#: includes/public/class-zeko-jobs-ajax.php:3590
+#: includes/public/class-zeko-jobs-ajax.php:2623
+#: includes/public/class-zeko-jobs-ajax.php:3599
 msgid "Default resume updated."
 msgstr ""
 
@@ -1541,7 +1541,7 @@ msgstr ""
 msgid "Details"
 msgstr ""
 
-#: templates/single-job.php:857
+#: templates/single-job.php:859
 msgid "Details (optional)"
 msgstr ""
 
@@ -1551,7 +1551,7 @@ msgstr ""
 msgid "Digest sent with %d matching jobs."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:807
+#: includes/public/class-zeko-jobs-ajax.php:816
 msgid "Direct message initiated! Redirecting to messages..."
 msgstr ""
 
@@ -1579,19 +1579,19 @@ msgstr ""
 msgid "Distance (Nearest)"
 msgstr ""
 
-#: zeko-jobs.php:91
+#: zeko-jobs.php:92
 msgid "Document ID"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2042
+#: includes/public/class-zeko-jobs-ajax.php:2051
 msgid "Document deleted."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2080
+#: includes/public/class-zeko-jobs-ajax.php:2089
 msgid "Document not found."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1940
+#: includes/public/class-zeko-jobs-ajax.php:1949
 msgid "Document uploaded."
 msgstr ""
 
@@ -1632,9 +1632,9 @@ msgstr ""
 msgid "Earn points for activity and unlock perks, badges, and tiers."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:4346
+#: includes/public/class-zeko-jobs-ajax.php:4355
 #: includes/public/class-zeko-jobs-shortcodes.php:728
-#: templates/single-job.php:723
+#: templates/single-job.php:725
 msgid "Easy Apply"
 msgstr ""
 
@@ -1664,13 +1664,13 @@ msgstr ""
 #: includes/public/class-zeko-jobs-shortcodes.php:1282
 #: includes/public/class-zeko-jobs-shortcodes.php:2042
 #: includes/public/class-zeko-jobs-shortcodes.php:2170
-#: templates/single-job.php:252
+#: templates/single-job.php:254
 msgid "Education"
 msgstr ""
 
 #: includes/db/class-zeko-jobs-db.php:1247
 #: includes/public/class-zeko-jobs-shortcodes.php:2179
-#: templates/single-job.php:713
+#: templates/single-job.php:715
 msgid "Email"
 msgstr ""
 
@@ -1760,12 +1760,12 @@ msgid "Executive / Director"
 msgstr ""
 
 #: includes/public/class-zeko-jobs-shortcodes.php:2169
-#: templates/single-job.php:249
+#: templates/single-job.php:251
 msgid "Experience"
 msgstr ""
 
 #: includes/public/class-zeko-jobs-shortcodes.php:1288
-#: templates/single-job.php:408
+#: templates/single-job.php:410
 msgid "Experience Level"
 msgstr ""
 
@@ -1791,11 +1791,11 @@ msgstr ""
 msgid "Export PDF"
 msgstr ""
 
-#: templates/single-job.php:681
+#: templates/single-job.php:683
 msgid "Facebook"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:351
+#: includes/public/class-zeko-jobs-ajax.php:360
 msgid "Failed to create job."
 msgstr ""
 
@@ -1803,11 +1803,11 @@ msgstr ""
 msgid "Failed to generate demo data."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1909
+#: includes/public/class-zeko-jobs-ajax.php:1918
 msgid "Failed to move uploaded file."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3041
+#: includes/public/class-zeko-jobs-ajax.php:3050
 msgid "Failed to save post."
 msgstr ""
 
@@ -1820,11 +1820,11 @@ msgstr ""
 msgid "Failed to send message."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1396
+#: includes/public/class-zeko-jobs-ajax.php:1405
 msgid "Failed to submit application."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:260
+#: includes/public/class-zeko-jobs-ajax.php:269
 msgid "Failed to update job."
 msgstr ""
 
@@ -1843,7 +1843,7 @@ msgstr ""
 
 #: includes/admin/class-zeko-jobs-admin.php:1569
 #: includes/admin/class-zeko-jobs-admin.php:1586
-#: includes/public/class-zeko-jobs-ajax.php:4327
+#: includes/public/class-zeko-jobs-ajax.php:4336
 #: includes/public/class-zeko-jobs-alerts.php:182
 #: includes/public/class-zeko-jobs-digest.php:112
 #: includes/public/class-zeko-jobs-shortcodes.php:381
@@ -1856,7 +1856,7 @@ msgstr ""
 msgid "Featured Jobs"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1057
+#: includes/public/class-zeko-jobs-ajax.php:1066
 msgid "Featured removed."
 msgstr ""
 
@@ -1874,26 +1874,26 @@ msgstr ""
 msgid "Feedback"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3902
+#: includes/public/class-zeko-jobs-ajax.php:3911
 msgid "Feedback saved."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1422
+#: includes/public/class-zeko-jobs-ajax.php:1431
 msgid "Feedback sent. We will show fewer jobs like this."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1888
+#: includes/public/class-zeko-jobs-ajax.php:1897
 msgid ""
 "File content does not match its extension. Allowed: PDF, DOC, DOCX, JPG, PNG."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:482
-#: includes/public/class-zeko-jobs-ajax.php:643
-#: includes/public/class-zeko-jobs-ajax.php:1878
+#: includes/public/class-zeko-jobs-ajax.php:491
+#: includes/public/class-zeko-jobs-ajax.php:652
+#: includes/public/class-zeko-jobs-ajax.php:1887
 msgid "File size must be under 5MB."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1850
+#: includes/public/class-zeko-jobs-ajax.php:1859
 msgid "File upload failed."
 msgstr ""
 
@@ -1924,11 +1924,11 @@ msgid ""
 "profile visibility appear here."
 msgstr ""
 
-#: templates/company-profile.php:56 templates/company-profile.php:59
+#: templates/company-profile.php:58 templates/company-profile.php:61
 msgid "Follow"
 msgstr ""
 
-#: templates/company-profile.php:56
+#: templates/company-profile.php:58
 msgid "Following"
 msgstr ""
 
@@ -1937,7 +1937,7 @@ msgid "Founded Year"
 msgstr ""
 
 #. translators: %s: year the company was founded
-#: templates/company-profile.php:263
+#: templates/company-profile.php:265
 #, php-format
 msgid "Founded: %s"
 msgstr ""
@@ -1963,7 +1963,7 @@ msgstr ""
 msgid "Freelance"
 msgstr ""
 
-#: templates/single-job.php:137
+#: templates/single-job.php:139
 msgid "From"
 msgstr ""
 
@@ -2028,7 +2028,7 @@ msgstr ""
 msgid "Good luck!"
 msgstr ""
 
-#: templates/single-job.php:231
+#: templates/single-job.php:233
 msgid "Good match. Some areas may need attention."
 msgstr ""
 
@@ -2036,7 +2036,7 @@ msgstr ""
 msgid "Google Meet, Zoom, Teams, or any video call link."
 msgstr ""
 
-#: templates/single-job.php:228
+#: templates/single-job.php:230
 msgid "Great match! Your profile aligns well with this role."
 msgstr ""
 
@@ -2056,7 +2056,7 @@ msgid "Healthcare"
 msgstr ""
 
 #. translators: %s: job title
-#: includes/public/class-zeko-jobs-ajax.php:539
+#: includes/public/class-zeko-jobs-ajax.php:548
 #, php-format
 msgid ""
 "Hello! I have just applied for the '%s' position you posted. I've attached "
@@ -2065,14 +2065,14 @@ msgid ""
 msgstr ""
 
 #. translators: %s: job title
-#: includes/public/class-zeko-jobs-ajax.php:798
+#: includes/public/class-zeko-jobs-ajax.php:807
 #, php-format
 msgid ""
 "Hello, I am interested in your job posting for '%s' and would love to ask a "
 "few questions."
 msgstr ""
 
-#: templates/single-job.php:845
+#: templates/single-job.php:847
 msgid ""
 "Help keep the job board safe. Tell us why this listing should be reviewed."
 msgstr ""
@@ -2083,7 +2083,7 @@ msgstr ""
 msgid "Here are %2$d new job(s) matching your saved search \"%1$s\"."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3333
+#: includes/public/class-zeko-jobs-ajax.php:3342
 #, php-format
 msgid ""
 "Hi %1$s,\n"
@@ -2179,14 +2179,14 @@ msgid ""
 "{employer_name}"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:4380
+#: includes/public/class-zeko-jobs-ajax.php:4389
 #: includes/public/class-zeko-jobs-shortcodes.php:790
 msgid "High competition"
 msgstr ""
 
 #: includes/db/class-zeko-jobs-db.php:5044
 #: includes/email/class-zeko-jobs-email.php:155
-#: includes/public/class-zeko-jobs-ajax.php:883
+#: includes/public/class-zeko-jobs-ajax.php:892
 #: includes/public/class-zeko-jobs-shortcodes.php:1604
 #: includes/public/class-zeko-jobs-shortcodes.php:1621
 #: includes/public/class-zeko-jobs-shortcodes.php:2720
@@ -2196,7 +2196,7 @@ msgstr ""
 msgid "Hired"
 msgstr ""
 
-#: templates/single-job.php:81
+#: templates/single-job.php:83
 msgid "Home"
 msgstr ""
 
@@ -2226,26 +2226,26 @@ msgid "Import CSV"
 msgstr ""
 
 #. translators: 1: number of imported jobs. 2: number of errors
-#: includes/public/class-zeko-jobs-ajax.php:2439
+#: includes/public/class-zeko-jobs-ajax.php:2448
 #, php-format
 msgid "Imported %1$d job(s). %2$d error(s)."
 msgstr ""
 
-#: includes/admin/class-zeko-jobs-admin.php:1265 templates/single-job.php:849
+#: includes/admin/class-zeko-jobs-admin.php:1265 templates/single-job.php:851
 msgid "Inappropriate content"
 msgstr ""
 
 #: includes/admin/class-zeko-jobs-admin.php:1566
 #: includes/public/class-zeko-jobs-shortcodes.php:3144
-#: templates/single-job.php:417
+#: templates/single-job.php:419
 msgid "Industry"
 msgstr ""
 
-#: templates/single-job.php:584
+#: templates/single-job.php:586
 msgid "Industry insights"
 msgstr ""
 
-#: templates/single-job.php:771
+#: templates/single-job.php:773
 msgid "Industry:"
 msgstr ""
 
@@ -2266,13 +2266,13 @@ msgstr ""
 msgid "Institution"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1020
-#: includes/public/class-zeko-jobs-ajax.php:4490
-#: includes/public/class-zeko-jobs-ajax.php:4592
+#: includes/public/class-zeko-jobs-ajax.php:1029
+#: includes/public/class-zeko-jobs-ajax.php:4499
+#: includes/public/class-zeko-jobs-ajax.php:4601
 msgid "Insufficient funds. Please top up your ZekoPay wallet."
 msgstr ""
 
-#: templates/single-job.php:657
+#: templates/single-job.php:659
 msgid "Interested in this job?"
 msgstr ""
 
@@ -2290,7 +2290,7 @@ msgstr ""
 msgid "Interview Calendar"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2229
+#: includes/public/class-zeko-jobs-ajax.php:2238
 msgid "Interview Scheduled"
 msgstr ""
 
@@ -2314,11 +2314,11 @@ msgstr ""
 msgid "Interview invitation for {job_title}"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2303
+#: includes/public/class-zeko-jobs-ajax.php:2312
 msgid "Interview not found or access denied."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2636
+#: includes/public/class-zeko-jobs-ajax.php:2645
 msgid "Interview not found."
 msgstr ""
 
@@ -2326,7 +2326,7 @@ msgstr ""
 msgid "Interview notes"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2247
+#: includes/public/class-zeko-jobs-ajax.php:2256
 msgid "Interview scheduled."
 msgstr ""
 
@@ -2336,7 +2336,7 @@ msgstr ""
 msgid "Interview starting soon: %s"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2336
+#: includes/public/class-zeko-jobs-ajax.php:2345
 msgid "Interview time confirmed."
 msgstr ""
 
@@ -2345,7 +2345,7 @@ msgid "Interviewer"
 msgstr ""
 
 #: includes/db/class-zeko-jobs-db.php:5042
-#: includes/public/class-zeko-jobs-ajax.php:881
+#: includes/public/class-zeko-jobs-ajax.php:890
 #: includes/public/class-zeko-jobs-shortcodes.php:2718
 #: includes/public/class-zeko-jobs-shortcodes.php:2776
 #: includes/public/class-zeko-jobs-shortcodes.php:3617
@@ -2360,21 +2360,21 @@ msgstr ""
 msgid "Invalid OAuth state."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3737
-#: includes/public/class-zeko-jobs-ajax.php:3762
+#: includes/public/class-zeko-jobs-ajax.php:3746
+#: includes/public/class-zeko-jobs-ajax.php:3771
 msgid "Invalid alert."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:925
-#: includes/public/class-zeko-jobs-ajax.php:1162
-#: includes/public/class-zeko-jobs-ajax.php:1187
-#: includes/public/class-zeko-jobs-ajax.php:1729
-#: includes/public/class-zeko-jobs-ajax.php:2268
+#: includes/public/class-zeko-jobs-ajax.php:934
+#: includes/public/class-zeko-jobs-ajax.php:1171
+#: includes/public/class-zeko-jobs-ajax.php:1196
+#: includes/public/class-zeko-jobs-ajax.php:1738
+#: includes/public/class-zeko-jobs-ajax.php:2277
 msgid "Invalid application."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1479
-#: includes/public/class-zeko-jobs-ajax.php:3030
+#: includes/public/class-zeko-jobs-ajax.php:1488
+#: includes/public/class-zeko-jobs-ajax.php:3039
 msgid "Invalid company."
 msgstr ""
 
@@ -2382,58 +2382,58 @@ msgstr ""
 msgid "Invalid conversation."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2103
+#: includes/public/class-zeko-jobs-ajax.php:2112
 msgid "Invalid document path."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2035
-#: includes/public/class-zeko-jobs-ajax.php:2070
-#: includes/public/class-zeko-jobs-ajax.php:3565
-#: includes/public/class-zeko-jobs-ajax.php:3612
+#: includes/public/class-zeko-jobs-ajax.php:2044
+#: includes/public/class-zeko-jobs-ajax.php:2079
+#: includes/public/class-zeko-jobs-ajax.php:3574
+#: includes/public/class-zeko-jobs-ajax.php:3621
 msgid "Invalid document."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:785
+#: includes/public/class-zeko-jobs-ajax.php:794
 msgid "Invalid employer ID."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1883
+#: includes/public/class-zeko-jobs-ajax.php:1892
 msgid "Invalid file type. Allowed: PDF, DOC, DOCX, JPG, PNG."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:487
+#: includes/public/class-zeko-jobs-ajax.php:496
 msgid "Invalid file type. Only PDF and DOC/DOCX are accepted."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2629
-#: includes/public/class-zeko-jobs-ajax.php:3862
-#: includes/public/class-zeko-jobs-ajax.php:3881
+#: includes/public/class-zeko-jobs-ajax.php:2638
+#: includes/public/class-zeko-jobs-ajax.php:3871
+#: includes/public/class-zeko-jobs-ajax.php:3890
 msgid "Invalid interview."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:737
-#: includes/public/class-zeko-jobs-ajax.php:3483
-#: includes/public/class-zeko-jobs-ajax.php:3519
+#: includes/public/class-zeko-jobs-ajax.php:746
+#: includes/public/class-zeko-jobs-ajax.php:3492
+#: includes/public/class-zeko-jobs-ajax.php:3528
 msgid "Invalid job ID."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:184
+#: includes/public/class-zeko-jobs-ajax.php:193
 msgid "Invalid job type."
 msgstr ""
 
 #: includes/class-zeko-jobs-linkedin.php:240
-#: includes/public/class-zeko-jobs-ajax.php:982
-#: includes/public/class-zeko-jobs-ajax.php:1080
-#: includes/public/class-zeko-jobs-ajax.php:1358
-#: includes/public/class-zeko-jobs-ajax.php:1411
-#: includes/public/class-zeko-jobs-ajax.php:1635
-#: includes/public/class-zeko-jobs-ajax.php:1703
-#: includes/public/class-zeko-jobs-ajax.php:3115
-#: includes/public/class-zeko-jobs-ajax.php:3377
+#: includes/public/class-zeko-jobs-ajax.php:991
+#: includes/public/class-zeko-jobs-ajax.php:1089
+#: includes/public/class-zeko-jobs-ajax.php:1367
+#: includes/public/class-zeko-jobs-ajax.php:1420
+#: includes/public/class-zeko-jobs-ajax.php:1644
+#: includes/public/class-zeko-jobs-ajax.php:1712
+#: includes/public/class-zeko-jobs-ajax.php:3124
+#: includes/public/class-zeko-jobs-ajax.php:3386
 msgid "Invalid job."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1445
+#: includes/public/class-zeko-jobs-ajax.php:1454
 msgid "Invalid listing."
 msgstr ""
 
@@ -2442,7 +2442,7 @@ msgstr ""
 msgid "Invalid message data."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2666
+#: includes/public/class-zeko-jobs-ajax.php:2675
 msgid "Invalid notification."
 msgstr ""
 
@@ -2450,60 +2450,60 @@ msgstr ""
 msgid "Invalid or expired link."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:4097
+#: includes/public/class-zeko-jobs-ajax.php:4106
 msgid "Invalid page."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:826
-#: includes/public/class-zeko-jobs-ajax.php:861
-#: includes/public/class-zeko-jobs-ajax.php:1133
-#: includes/public/class-zeko-jobs-ajax.php:1293
-#: includes/public/class-zeko-jobs-ajax.php:1583
-#: includes/public/class-zeko-jobs-ajax.php:2179
-#: includes/public/class-zeko-jobs-ajax.php:2329
-#: includes/public/class-zeko-jobs-ajax.php:2806
+#: includes/public/class-zeko-jobs-ajax.php:835
+#: includes/public/class-zeko-jobs-ajax.php:870
+#: includes/public/class-zeko-jobs-ajax.php:1142
+#: includes/public/class-zeko-jobs-ajax.php:1302
+#: includes/public/class-zeko-jobs-ajax.php:1592
+#: includes/public/class-zeko-jobs-ajax.php:2188
+#: includes/public/class-zeko-jobs-ajax.php:2338
+#: includes/public/class-zeko-jobs-ajax.php:2815
 msgid "Invalid parameters."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3065
+#: includes/public/class-zeko-jobs-ajax.php:3074
 msgid "Invalid post."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2771
-#: includes/public/class-zeko-jobs-ajax.php:3263
+#: includes/public/class-zeko-jobs-ajax.php:2780
+#: includes/public/class-zeko-jobs-ajax.php:3272
 msgid "Invalid rating."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1318
+#: includes/public/class-zeko-jobs-ajax.php:1327
 msgid "Invalid reminder."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2561
+#: includes/public/class-zeko-jobs-ajax.php:2570
 msgid "Invalid resume data."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2587
-#: includes/public/class-zeko-jobs-ajax.php:2608
+#: includes/public/class-zeko-jobs-ajax.php:2596
+#: includes/public/class-zeko-jobs-ajax.php:2617
 msgid "Invalid resume."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1826
+#: includes/public/class-zeko-jobs-ajax.php:1835
 msgid "Invalid search."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3918
+#: includes/public/class-zeko-jobs-ajax.php:3927
 msgid "Invalid stages data."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:854
+#: includes/public/class-zeko-jobs-ajax.php:863
 msgid "Invalid status transition."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2890
+#: includes/public/class-zeko-jobs-ajax.php:2899
 msgid "Invalid template ID."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3204
+#: includes/public/class-zeko-jobs-ajax.php:3213
 #: includes/public/class-zeko-jobs-messaging.php:1226
 msgid "Invalid template."
 msgstr ""
@@ -2543,7 +2543,7 @@ msgstr ""
 msgid "Job Description"
 msgstr ""
 
-#: templates/single-job.php:429
+#: templates/single-job.php:431
 msgid "Job Details"
 msgstr ""
 
@@ -2562,7 +2562,7 @@ msgid "Job Offer"
 msgstr ""
 
 #. translators: %s: job title
-#: templates/single-job.php:708
+#: templates/single-job.php:710
 #, php-format
 msgid "Job Opportunity: %s"
 msgstr ""
@@ -2583,13 +2583,13 @@ msgstr ""
 msgid "Job Seeker"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3537
+#: includes/public/class-zeko-jobs-ajax.php:3546
 #: includes/public/class-zeko-jobs-shortcodes.php:1253
 msgid "Job Title"
 msgstr ""
 
 #: includes/public/class-zeko-jobs-shortcodes.php:1910
-#: templates/single-job.php:200 templates/single-job.php:250
+#: templates/single-job.php:202 templates/single-job.php:252
 msgid "Job Type"
 msgstr ""
 
@@ -2601,7 +2601,7 @@ msgstr ""
 msgid "Job approved."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:761
+#: includes/public/class-zeko-jobs-ajax.php:770
 msgid "Job bookmarked successfully!"
 msgstr ""
 
@@ -2609,20 +2609,20 @@ msgstr ""
 msgid "Job bookmarked."
 msgstr ""
 
-#: templates/single-job.php:80
+#: templates/single-job.php:82
 msgid "Job breadcrumb"
 msgstr ""
 
 #: includes/admin/class-zeko-jobs-admin.php:1679
-#: includes/public/class-zeko-jobs-ajax.php:1711
+#: includes/public/class-zeko-jobs-ajax.php:1720
 msgid "Job deleted."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:181
+#: includes/public/class-zeko-jobs-ajax.php:190
 msgid "Job description must be 5,000 characters or fewer."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1682
+#: includes/public/class-zeko-jobs-ajax.php:1691
 msgid "Job duplicated as draft."
 msgstr ""
 
@@ -2634,7 +2634,7 @@ msgstr ""
 msgid "Job listings"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1057
+#: includes/public/class-zeko-jobs-ajax.php:1066
 msgid "Job marked as featured."
 msgstr ""
 
@@ -2642,13 +2642,13 @@ msgstr ""
 msgid "Job navigation"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:227
+#: includes/public/class-zeko-jobs-ajax.php:236
 msgid "Job not found or you do not have permission to edit it."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:992
-#: includes/public/class-zeko-jobs-ajax.php:1644
-#: includes/public/class-zeko-jobs-ajax.php:3122
+#: includes/public/class-zeko-jobs-ajax.php:1001
+#: includes/public/class-zeko-jobs-ajax.php:1653
+#: includes/public/class-zeko-jobs-ajax.php:3131
 msgid "Job not found."
 msgstr ""
 
@@ -2656,7 +2656,7 @@ msgstr ""
 msgid "Job offer for {job_title}"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:394
+#: includes/public/class-zeko-jobs-ajax.php:403
 msgid "Job published successfully."
 msgstr ""
 
@@ -2664,11 +2664,11 @@ msgstr ""
 msgid "Job rejected."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3400
+#: includes/public/class-zeko-jobs-ajax.php:3409
 msgid "Job removed from saved."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2820
+#: includes/public/class-zeko-jobs-ajax.php:2829
 msgid "Job renewed successfully."
 msgstr ""
 
@@ -2676,19 +2676,19 @@ msgstr ""
 msgid "Job review"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3399
+#: includes/public/class-zeko-jobs-ajax.php:3408
 msgid "Job saved."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:387
+#: includes/public/class-zeko-jobs-ajax.php:396
 msgid "Job submitted for review."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:175
+#: includes/public/class-zeko-jobs-ajax.php:184
 msgid "Job title must be 120 characters or fewer."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:293
+#: includes/public/class-zeko-jobs-ajax.php:302
 msgid "Job updated successfully."
 msgstr ""
 
@@ -2704,7 +2704,7 @@ msgstr ""
 #: includes/ecosystem/class-zeko-jobs-ecosystem.php:118
 #: includes/email/class-zeko-jobs-email.php:505
 #: includes/public/class-zeko-jobs-shortcodes.php:1050
-#: templates/single-job.php:83
+#: templates/single-job.php:85
 msgid "Jobs"
 msgstr ""
 
@@ -2716,7 +2716,7 @@ msgstr ""
 msgid "Jobs Overview"
 msgstr ""
 
-#: templates/single-job.php:797
+#: templates/single-job.php:799
 msgid "Jobs You May Like"
 msgstr ""
 
@@ -2724,7 +2724,7 @@ msgstr ""
 msgid "Jobs per page"
 msgstr ""
 
-#: templates/single-job.php:795
+#: templates/single-job.php:797
 msgid "Jobs you may like"
 msgstr ""
 
@@ -2748,11 +2748,11 @@ msgstr ""
 msgid "Keyword:"
 msgstr ""
 
-#: zeko-jobs.php:95
+#: zeko-jobs.php:96
 msgid "Label"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3635
+#: includes/public/class-zeko-jobs-ajax.php:3644
 msgid "Label updated."
 msgstr ""
 
@@ -2795,7 +2795,7 @@ msgstr ""
 
 #: includes/public/class-zeko-jobs-shortcodes.php:2186
 #: includes/public/class-zeko-jobs-shortcodes.php:3173
-#: templates/company-profile.php:272 templates/single-job.php:701
+#: templates/company-profile.php:274 templates/single-job.php:703
 msgid "LinkedIn"
 msgstr ""
 
@@ -2858,20 +2858,20 @@ msgstr ""
 msgid "Listing Pack Price"
 msgstr ""
 
-#: includes/admin/class-zeko-jobs-admin.php:1268 templates/single-job.php:852
+#: includes/admin/class-zeko-jobs-admin.php:1268 templates/single-job.php:854
 msgid "Listing already filled or expired"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1451
+#: includes/public/class-zeko-jobs-ajax.php:1460
 msgid "Listing not found."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:4551
+#: includes/public/class-zeko-jobs-ajax.php:4560
 msgid "Listing pack not configured."
 msgstr ""
 
 #. translators: 1: number of jobs, 2: amount paid
-#: includes/public/class-zeko-jobs-ajax.php:4582
+#: includes/public/class-zeko-jobs-ajax.php:4591
 #, php-format
 msgid "Listing pack purchased: %1$d job postings for %2$s."
 msgstr ""
@@ -2915,11 +2915,11 @@ msgstr ""
 #: includes/public/class-zeko-jobs-shortcodes.php:2183
 #: includes/public/class-zeko-jobs-shortcodes.php:3163
 #: includes/public/class-zeko-jobs-shortcodes.php:3273
-#: templates/single-job.php:251
+#: templates/single-job.php:253
 msgid "Location"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:178
+#: includes/public/class-zeko-jobs-ajax.php:187
 msgid "Location must be 100 characters or fewer."
 msgstr ""
 
@@ -2931,7 +2931,7 @@ msgstr ""
 msgid "Location:"
 msgstr ""
 
-#: templates/company-profile.php:225
+#: templates/company-profile.php:227
 msgid "Log in"
 msgstr ""
 
@@ -2941,12 +2941,12 @@ msgid ""
 "schedule an interview."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:4376
+#: includes/public/class-zeko-jobs-ajax.php:4385
 #: includes/public/class-zeko-jobs-shortcodes.php:784
 msgid "Low competition"
 msgstr ""
 
-#: templates/single-job.php:234
+#: templates/single-job.php:236
 msgid "Lower match. Consider upskilling to better fit this role."
 msgstr ""
 
@@ -2991,11 +2991,11 @@ msgstr ""
 msgid "Marketplace"
 msgstr ""
 
-#: templates/single-job.php:241
+#: templates/single-job.php:243
 msgid "Match"
 msgstr ""
 
-#: templates/single-job.php:265
+#: templates/single-job.php:267
 msgid "Matched skills:"
 msgstr ""
 
@@ -3003,7 +3003,7 @@ msgstr ""
 msgid "Max Daily Applications"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:594
+#: includes/public/class-zeko-jobs-ajax.php:603
 msgid "Maximum 20 jobs per bulk apply."
 msgstr ""
 
@@ -3015,7 +3015,7 @@ msgstr ""
 msgid "Maximum salary"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:4378
+#: includes/public/class-zeko-jobs-ajax.php:4387
 #: includes/public/class-zeko-jobs-shortcodes.php:787
 msgid "Medium competition"
 msgstr ""
@@ -3038,7 +3038,7 @@ msgstr ""
 msgid "Message Body"
 msgstr ""
 
-#: templates/single-job.php:744
+#: templates/single-job.php:746
 msgid "Message Employer"
 msgstr ""
 
@@ -3047,12 +3047,12 @@ msgid "Message Templates"
 msgstr ""
 
 #. translators: %s: employer display name
-#: includes/public/class-zeko-jobs-ajax.php:3355
+#: includes/public/class-zeko-jobs-ajax.php:3364
 #, php-format
 msgid "Message from %s"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3360
+#: includes/public/class-zeko-jobs-ajax.php:3369
 msgid "Message sent to candidate."
 msgstr ""
 
@@ -3070,7 +3070,7 @@ msgstr ""
 msgid "Message templates"
 msgstr ""
 
-#: templates/single-job.php:742
+#: templates/single-job.php:744
 msgid "Message the employer"
 msgstr ""
 
@@ -3101,13 +3101,13 @@ msgstr ""
 msgid "Minimum salary"
 msgstr ""
 
-#: includes/admin/class-zeko-jobs-admin.php:1267 templates/single-job.php:851
+#: includes/admin/class-zeko-jobs-admin.php:1267 templates/single-job.php:853
 msgid "Misleading or inaccurate"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:172
-#: includes/public/class-zeko-jobs-ajax.php:422
-#: includes/public/class-zeko-jobs-ajax.php:589
+#: includes/public/class-zeko-jobs-ajax.php:181
+#: includes/public/class-zeko-jobs-ajax.php:431
+#: includes/public/class-zeko-jobs-ajax.php:598
 msgid "Missing required fields."
 msgstr ""
 
@@ -3135,7 +3135,7 @@ msgstr ""
 msgid "My Dashboard"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-public.php:955
+#: includes/public/class-zeko-jobs-public.php:961
 msgid "My Job Applications"
 msgstr ""
 
@@ -3143,7 +3143,7 @@ msgstr ""
 msgid "My Jobs"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-public.php:904
+#: includes/public/class-zeko-jobs-public.php:910
 msgid "My Posted Jobs"
 msgstr ""
 
@@ -3164,10 +3164,10 @@ msgstr ""
 msgid "My Resumes & Documents"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:4279
+#: includes/public/class-zeko-jobs-ajax.php:4288
 #: includes/public/class-zeko-jobs-shortcodes.php:655
 #: includes/public/class-zeko-jobs-shortcodes.php:2253
-#: templates/single-job.php:48 templates/single-job.php:808
+#: templates/single-job.php:48 templates/single-job.php:810
 msgid "N/A"
 msgstr ""
 
@@ -3175,7 +3175,7 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2842
+#: includes/public/class-zeko-jobs-ajax.php:2851
 msgid "Name and content are required."
 msgstr ""
 
@@ -3191,7 +3191,7 @@ msgstr ""
 msgid "Network error."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:4331
+#: includes/public/class-zeko-jobs-ajax.php:4340
 #: includes/public/class-zeko-jobs-shortcodes.php:707
 #: includes/public/class-zeko-jobs-shortcodes.php:1108
 msgid "New"
@@ -3234,12 +3234,12 @@ msgstr ""
 msgid "Newest First"
 msgstr ""
 
-#: templates/company-profile.php:133
+#: templates/company-profile.php:135
 msgid "News & Updates"
 msgstr ""
 
 #: includes/public/class-zeko-jobs-shortcodes.php:3016
-#: templates/single-job.php:800
+#: templates/single-job.php:802
 msgid "Next"
 msgstr ""
 
@@ -3314,11 +3314,11 @@ msgstr ""
 msgid "No new matching jobs found."
 msgstr ""
 
-#: templates/company-profile.php:127
+#: templates/company-profile.php:129
 msgid "No open positions at this time."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:4070
+#: includes/public/class-zeko-jobs-ajax.php:4079
 msgid "No pending deletion request found."
 msgstr ""
 
@@ -3342,11 +3342,11 @@ msgstr ""
 msgid "No resumes yet. Create your first structured resume to get started."
 msgstr ""
 
-#: templates/company-profile.php:250
+#: templates/company-profile.php:252
 msgid "No reviews yet. Be the first to review this company!"
 msgstr ""
 
-#: templates/single-job.php:486
+#: templates/single-job.php:488
 msgid "No reviews yet. Be the first to share your experience!"
 msgstr ""
 
@@ -3370,11 +3370,11 @@ msgstr ""
 msgid "No users found."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:620
+#: includes/public/class-zeko-jobs-ajax.php:629
 msgid "None of the selected jobs are accepting applications."
 msgstr ""
 
-#: templates/single-job.php:749
+#: templates/single-job.php:751
 msgid "Not Interested"
 msgstr ""
 
@@ -3382,14 +3382,14 @@ msgstr ""
 msgid "Not Selected"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3490
-#: includes/public/class-zeko-jobs-ajax.php:3526
-#: includes/public/class-zeko-jobs-ajax.php:3582
-#: includes/public/class-zeko-jobs-ajax.php:3628
+#: includes/public/class-zeko-jobs-ajax.php:3499
+#: includes/public/class-zeko-jobs-ajax.php:3535
+#: includes/public/class-zeko-jobs-ajax.php:3591
+#: includes/public/class-zeko-jobs-ajax.php:3637
 msgid "Not authorized."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1144
+#: includes/public/class-zeko-jobs-ajax.php:1153
 #: includes/public/class-zeko-jobs-public.php:176
 msgid "Note added."
 msgstr ""
@@ -3404,11 +3404,11 @@ msgstr ""
 msgid "Notification"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2673
+#: includes/public/class-zeko-jobs-ajax.php:2682
 msgid "Notification marked as read."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2675
+#: includes/public/class-zeko-jobs-ajax.php:2684
 msgid "Notification not found."
 msgstr ""
 
@@ -3440,7 +3440,7 @@ msgid "Offer"
 msgstr ""
 
 #: includes/db/class-zeko-jobs-db.php:5043
-#: includes/public/class-zeko-jobs-ajax.php:882
+#: includes/public/class-zeko-jobs-ajax.php:891
 #: includes/public/class-zeko-jobs-shortcodes.php:2719
 #: includes/public/class-zeko-jobs-shortcodes.php:2777
 #: includes/public/class-zeko-jobs-shortcodes.php:3618
@@ -3477,12 +3477,12 @@ msgid ""
 "page."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2365
+#: includes/public/class-zeko-jobs-ajax.php:2374
 msgid "Only CSV files are allowed."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:478
-#: includes/public/class-zeko-jobs-ajax.php:640
+#: includes/public/class-zeko-jobs-ajax.php:487
+#: includes/public/class-zeko-jobs-ajax.php:649
 msgid "Only PDF and DOC/DOCX files are allowed."
 msgstr ""
 
@@ -3490,7 +3490,7 @@ msgstr ""
 msgid "Open Messages"
 msgstr ""
 
-#: templates/company-profile.php:97
+#: templates/company-profile.php:99
 msgid "Open Positions"
 msgstr ""
 
@@ -3503,7 +3503,7 @@ msgstr ""
 msgid "Open to Work"
 msgstr ""
 
-#: includes/admin/class-zeko-jobs-admin.php:1269 templates/single-job.php:853
+#: includes/admin/class-zeko-jobs-admin.php:1269 templates/single-job.php:855
 msgid "Other"
 msgstr ""
 
@@ -3523,7 +3523,7 @@ msgstr ""
 msgid "PDF, DOC, or DOCX â€” max 5MB"
 msgstr ""
 
-#: templates/single-job.php:630
+#: templates/single-job.php:632
 msgid "PDF, DOC, or DOCX — max 5MB"
 msgstr ""
 
@@ -3557,7 +3557,7 @@ msgstr ""
 msgid "Paused"
 msgstr ""
 
-#: templates/single-job.php:142
+#: templates/single-job.php:144
 msgid "Pay Transparency"
 msgstr ""
 
@@ -3588,7 +3588,7 @@ msgstr ""
 msgid "Performance overview across all your job listings."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2349
+#: includes/public/class-zeko-jobs-ajax.php:2358
 msgid "Permission denied."
 msgstr ""
 
@@ -3621,7 +3621,7 @@ msgstr ""
 msgid "Pipeline Board"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3943
+#: includes/public/class-zeko-jobs-ajax.php:3952
 msgid "Pipeline stages saved."
 msgstr ""
 
@@ -3633,7 +3633,7 @@ msgid ""
 msgstr ""
 
 #. translators: %s: login URL
-#: templates/single-job.php:662
+#: templates/single-job.php:664
 #, php-format
 msgid "Please %1$slog in%2$search_term to apply for this position."
 msgstr ""
@@ -3646,23 +3646,23 @@ msgstr ""
 msgid "Please enter a search term."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:730
+#: includes/public/class-zeko-jobs-ajax.php:739
 msgid "Please log in to bookmark jobs."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2065
+#: includes/public/class-zeko-jobs-ajax.php:2074
 msgid "Please log in to download documents."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1474
+#: includes/public/class-zeko-jobs-ajax.php:1483
 msgid "Please log in to follow this company."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2759
+#: includes/public/class-zeko-jobs-ajax.php:2768
 msgid "Please log in to leave a review."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:773
+#: includes/public/class-zeko-jobs-ajax.php:782
 msgid "Please log in to message employers."
 msgstr ""
 
@@ -3670,7 +3670,7 @@ msgstr ""
 msgid "Please log in to post a job."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1432
+#: includes/public/class-zeko-jobs-ajax.php:1441
 msgid "Please log in to report a listing."
 msgstr ""
 
@@ -3680,92 +3680,92 @@ msgstr ""
 
 #: includes/class-zeko-jobs-linkedin.php:230
 #: includes/public/class-zeko-jobs-ajax.php:133
-#: includes/public/class-zeko-jobs-ajax.php:408
-#: includes/public/class-zeko-jobs-ajax.php:581
-#: includes/public/class-zeko-jobs-ajax.php:818
-#: includes/public/class-zeko-jobs-ajax.php:920
-#: includes/public/class-zeko-jobs-ajax.php:977
-#: includes/public/class-zeko-jobs-ajax.php:1073
-#: includes/public/class-zeko-jobs-ajax.php:1126
-#: includes/public/class-zeko-jobs-ajax.php:1157
-#: includes/public/class-zeko-jobs-ajax.php:1182
-#: includes/public/class-zeko-jobs-ajax.php:1286
-#: includes/public/class-zeko-jobs-ajax.php:1313
-#: includes/public/class-zeko-jobs-ajax.php:1338
-#: includes/public/class-zeko-jobs-ajax.php:1353
-#: includes/public/class-zeko-jobs-ajax.php:1406
-#: includes/public/class-zeko-jobs-ajax.php:1520
-#: includes/public/class-zeko-jobs-ajax.php:1576
-#: includes/public/class-zeko-jobs-ajax.php:1630
-#: includes/public/class-zeko-jobs-ajax.php:1698
-#: includes/public/class-zeko-jobs-ajax.php:1724
-#: includes/public/class-zeko-jobs-ajax.php:1770
-#: includes/public/class-zeko-jobs-ajax.php:1805
-#: includes/public/class-zeko-jobs-ajax.php:1821
-#: includes/public/class-zeko-jobs-ajax.php:1846
-#: includes/public/class-zeko-jobs-ajax.php:2013
-#: includes/public/class-zeko-jobs-ajax.php:2030
-#: includes/public/class-zeko-jobs-ajax.php:2166
-#: includes/public/class-zeko-jobs-ajax.php:2263
-#: includes/public/class-zeko-jobs-ajax.php:2288
-#: includes/public/class-zeko-jobs-ajax.php:2322
-#: includes/public/class-zeko-jobs-ajax.php:2453
-#: includes/public/class-zeko-jobs-ajax.php:2554
-#: includes/public/class-zeko-jobs-ajax.php:2582
-#: includes/public/class-zeko-jobs-ajax.php:2603
-#: includes/public/class-zeko-jobs-ajax.php:2624
-#: includes/public/class-zeko-jobs-ajax.php:2661
-#: includes/public/class-zeko-jobs-ajax.php:2686
-#: includes/public/class-zeko-jobs-ajax.php:2709
-#: includes/public/class-zeko-jobs-ajax.php:3370
-#: includes/public/class-zeko-jobs-ajax.php:3478
-#: includes/public/class-zeko-jobs-ajax.php:3514
-#: includes/public/class-zeko-jobs-ajax.php:3560
-#: includes/public/class-zeko-jobs-ajax.php:3606
-#: includes/public/class-zeko-jobs-ajax.php:3653
-#: includes/public/class-zeko-jobs-ajax.php:3732
-#: includes/public/class-zeko-jobs-ajax.php:3757
-#: includes/public/class-zeko-jobs-ajax.php:3793
-#: includes/public/class-zeko-jobs-ajax.php:3857
-#: includes/public/class-zeko-jobs-ajax.php:3876
-#: includes/public/class-zeko-jobs-ajax.php:3912
-#: includes/public/class-zeko-jobs-ajax.php:3956
-#: includes/public/class-zeko-jobs-ajax.php:3973
-#: includes/public/class-zeko-jobs-ajax.php:4030
-#: includes/public/class-zeko-jobs-ajax.php:4063
-#: includes/public/class-zeko-jobs-ajax.php:4501
-#: includes/public/class-zeko-jobs-ajax.php:4536
-#: includes/public/class-zeko-jobs-ajax.php:4608
+#: includes/public/class-zeko-jobs-ajax.php:417
+#: includes/public/class-zeko-jobs-ajax.php:590
+#: includes/public/class-zeko-jobs-ajax.php:827
+#: includes/public/class-zeko-jobs-ajax.php:929
+#: includes/public/class-zeko-jobs-ajax.php:986
+#: includes/public/class-zeko-jobs-ajax.php:1082
+#: includes/public/class-zeko-jobs-ajax.php:1135
+#: includes/public/class-zeko-jobs-ajax.php:1166
+#: includes/public/class-zeko-jobs-ajax.php:1191
+#: includes/public/class-zeko-jobs-ajax.php:1295
+#: includes/public/class-zeko-jobs-ajax.php:1322
+#: includes/public/class-zeko-jobs-ajax.php:1347
+#: includes/public/class-zeko-jobs-ajax.php:1362
+#: includes/public/class-zeko-jobs-ajax.php:1415
+#: includes/public/class-zeko-jobs-ajax.php:1529
+#: includes/public/class-zeko-jobs-ajax.php:1585
+#: includes/public/class-zeko-jobs-ajax.php:1639
+#: includes/public/class-zeko-jobs-ajax.php:1707
+#: includes/public/class-zeko-jobs-ajax.php:1733
+#: includes/public/class-zeko-jobs-ajax.php:1779
+#: includes/public/class-zeko-jobs-ajax.php:1814
+#: includes/public/class-zeko-jobs-ajax.php:1830
+#: includes/public/class-zeko-jobs-ajax.php:1855
+#: includes/public/class-zeko-jobs-ajax.php:2022
+#: includes/public/class-zeko-jobs-ajax.php:2039
+#: includes/public/class-zeko-jobs-ajax.php:2175
+#: includes/public/class-zeko-jobs-ajax.php:2272
+#: includes/public/class-zeko-jobs-ajax.php:2297
+#: includes/public/class-zeko-jobs-ajax.php:2331
+#: includes/public/class-zeko-jobs-ajax.php:2462
+#: includes/public/class-zeko-jobs-ajax.php:2563
+#: includes/public/class-zeko-jobs-ajax.php:2591
+#: includes/public/class-zeko-jobs-ajax.php:2612
+#: includes/public/class-zeko-jobs-ajax.php:2633
+#: includes/public/class-zeko-jobs-ajax.php:2670
+#: includes/public/class-zeko-jobs-ajax.php:2695
+#: includes/public/class-zeko-jobs-ajax.php:2718
+#: includes/public/class-zeko-jobs-ajax.php:3379
+#: includes/public/class-zeko-jobs-ajax.php:3487
+#: includes/public/class-zeko-jobs-ajax.php:3523
+#: includes/public/class-zeko-jobs-ajax.php:3569
+#: includes/public/class-zeko-jobs-ajax.php:3615
+#: includes/public/class-zeko-jobs-ajax.php:3662
+#: includes/public/class-zeko-jobs-ajax.php:3741
+#: includes/public/class-zeko-jobs-ajax.php:3766
+#: includes/public/class-zeko-jobs-ajax.php:3802
+#: includes/public/class-zeko-jobs-ajax.php:3866
+#: includes/public/class-zeko-jobs-ajax.php:3885
+#: includes/public/class-zeko-jobs-ajax.php:3921
+#: includes/public/class-zeko-jobs-ajax.php:3965
+#: includes/public/class-zeko-jobs-ajax.php:3982
+#: includes/public/class-zeko-jobs-ajax.php:4039
+#: includes/public/class-zeko-jobs-ajax.php:4072
+#: includes/public/class-zeko-jobs-ajax.php:4510
+#: includes/public/class-zeko-jobs-ajax.php:4545
+#: includes/public/class-zeko-jobs-ajax.php:4617
 #: includes/public/class-zeko-jobs-digest.php:136
 msgid "Please log in."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3665
+#: includes/public/class-zeko-jobs-ajax.php:3674
 msgid "Please provide a name, keyword, or location for this alert."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2295
+#: includes/public/class-zeko-jobs-ajax.php:2304
 msgid "Please provide at least 2 proposed time slots."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3132
+#: includes/public/class-zeko-jobs-ajax.php:3141
 msgid ""
 "Please save a resume first in your profile before using one-click apply."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3319
+#: includes/public/class-zeko-jobs-ajax.php:3328
 msgid "Please select a candidate and write a message."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3228
+#: includes/public/class-zeko-jobs-ajax.php:3237
 msgid "Please select applicants and fill in the email content."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:426
+#: includes/public/class-zeko-jobs-ajax.php:435
 msgid "Please upload a resume or use your saved resume."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2353
+#: includes/public/class-zeko-jobs-ajax.php:2362
 msgid "Please upload a valid CSV file."
 msgstr ""
 
@@ -3787,7 +3787,7 @@ msgstr ""
 msgid "Post a Job"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-public.php:921
+#: includes/public/class-zeko-jobs-public.php:927
 #: includes/public/class-zeko-jobs-shortcodes.php:1203
 #: includes/public/class-zeko-jobs-shortcodes.php:1563
 #: includes/public/class-zeko-jobs-shortcodes.php:2674
@@ -3798,27 +3798,27 @@ msgstr ""
 msgid "Post a project or bid on one — get paid milestone by milestone."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3009
+#: includes/public/class-zeko-jobs-ajax.php:3018
 msgid "Post content is required."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3073
+#: includes/public/class-zeko-jobs-ajax.php:3082
 msgid "Post deleted."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3070
+#: includes/public/class-zeko-jobs-ajax.php:3079
 msgid "Post not found or you do not have permission to delete it."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3024
+#: includes/public/class-zeko-jobs-ajax.php:3033
 msgid "Post not found or you do not have permission to edit it."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3047
+#: includes/public/class-zeko-jobs-ajax.php:3056
 msgid "Post saved."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3006
+#: includes/public/class-zeko-jobs-ajax.php:3015
 msgid "Post title is required."
 msgstr ""
 
@@ -3845,7 +3845,7 @@ msgstr ""
 msgid "Preview Your Job Listing"
 msgstr ""
 
-#: templates/single-job.php:799
+#: templates/single-job.php:801
 msgid "Previous"
 msgstr ""
 
@@ -3873,7 +3873,7 @@ msgstr ""
 msgid "Profile Completeness"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3468
+#: includes/public/class-zeko-jobs-ajax.php:3477
 msgid "Profile saved."
 msgstr ""
 
@@ -3913,21 +3913,21 @@ msgid "Q&A"
 msgstr ""
 
 #: includes/public/class-zeko-jobs-shortcodes.php:1413
-#: templates/single-job.php:382
+#: templates/single-job.php:384
 msgid "Qualifications"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:4414
+#: includes/public/class-zeko-jobs-ajax.php:4423
 #: includes/public/class-zeko-jobs-shortcodes.php:834
 msgid "Quick Apply"
 msgstr ""
 
 #: includes/public/class-zeko-jobs-shortcodes.php:3625
-#: templates/single-job.php:470
+#: templates/single-job.php:472
 msgid "Rating"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3271
+#: includes/public/class-zeko-jobs-ajax.php:3280
 msgid "Rating saved."
 msgstr ""
 
@@ -3935,7 +3935,7 @@ msgstr ""
 msgid "Read"
 msgstr ""
 
-#: includes/admin/class-zeko-jobs-admin.php:1276 templates/single-job.php:847
+#: includes/admin/class-zeko-jobs-admin.php:1276 templates/single-job.php:849
 msgid "Reason"
 msgstr ""
 
@@ -3999,7 +3999,7 @@ msgstr ""
 msgid "Related Job (optional)"
 msgstr ""
 
-#: templates/single-job.php:569
+#: templates/single-job.php:571
 msgid "Related discussions"
 msgstr ""
 
@@ -4011,12 +4011,12 @@ msgstr ""
 msgid "Remind me on:"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1325
+#: includes/public/class-zeko-jobs-ajax.php:1334
 #: includes/public/class-zeko-jobs-public.php:179
 msgid "Reminder removed."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1300
+#: includes/public/class-zeko-jobs-ajax.php:1309
 msgid "Reminder set."
 msgstr ""
 
@@ -4036,14 +4036,14 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:4358
+#: includes/public/class-zeko-jobs-ajax.php:4367
 #: includes/public/class-zeko-jobs-shortcodes.php:755
-#: templates/single-job.php:730
+#: templates/single-job.php:732
 msgid "Remove bookmark"
 msgstr ""
 
 #: includes/public/class-zeko-jobs-shortcodes.php:1030
-#: templates/single-job.php:637
+#: templates/single-job.php:639
 msgid "Remove file"
 msgstr ""
 
@@ -4055,11 +4055,11 @@ msgstr ""
 msgid "Renew Now"
 msgstr ""
 
-#: templates/single-job.php:753
+#: templates/single-job.php:755
 msgid "Report"
 msgstr ""
 
-#: templates/single-job.php:752 templates/single-job.php:841
+#: templates/single-job.php:754 templates/single-job.php:843
 msgid "Report this listing"
 msgstr ""
 
@@ -4101,7 +4101,7 @@ msgid "Required Skills (comma separated)"
 msgstr ""
 
 #: includes/public/class-zeko-jobs-shortcodes.php:1407
-#: templates/single-job.php:376
+#: templates/single-job.php:378
 msgid "Requirements"
 msgstr ""
 
@@ -4138,7 +4138,7 @@ msgid "Response Rate"
 msgstr ""
 
 #: includes/public/class-zeko-jobs-shortcodes.php:1401
-#: templates/single-job.php:370
+#: templates/single-job.php:372
 msgid "Responsibilities"
 msgstr ""
 
@@ -4151,7 +4151,7 @@ msgid "Resume"
 msgstr ""
 
 #: includes/public/class-zeko-jobs-shortcodes.php:1019
-#: templates/single-job.php:626
+#: templates/single-job.php:628
 msgid "Resume (PDF or DOC/DOCX)"
 msgstr ""
 
@@ -4172,21 +4172,21 @@ msgstr ""
 msgid "Resume Title"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2593
+#: includes/public/class-zeko-jobs-ajax.php:2602
 msgid "Resume deleted."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2569
+#: includes/public/class-zeko-jobs-ajax.php:2578
 msgid "Resume saved."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2784
+#: includes/public/class-zeko-jobs-ajax.php:2793
 msgid "Review submitted."
 msgstr ""
 
 #: includes/db/class-zeko-jobs-db.php:5040
 #: includes/email/class-zeko-jobs-email.php:151
-#: includes/public/class-zeko-jobs-ajax.php:879
+#: includes/public/class-zeko-jobs-ajax.php:888
 #: includes/public/class-zeko-jobs-shortcodes.php:1602
 #: includes/public/class-zeko-jobs-shortcodes.php:1618
 #: includes/public/class-zeko-jobs-shortcodes.php:2716
@@ -4195,11 +4195,11 @@ msgstr ""
 msgid "Reviewed"
 msgstr ""
 
-#: templates/single-job.php:452
+#: templates/single-job.php:454
 msgid "Reviews"
 msgstr ""
 
-#: templates/company-profile.php:155
+#: templates/company-profile.php:157
 msgid "Reviews & Ratings"
 msgstr ""
 
@@ -4212,18 +4212,18 @@ msgid "Role"
 msgstr ""
 
 #. translators: %d: CSV row number
-#: includes/public/class-zeko-jobs-ajax.php:2431
+#: includes/public/class-zeko-jobs-ajax.php:2440
 #, php-format
 msgid "Row %d: failed to insert."
 msgstr ""
 
 #. translators: %d: CSV row number
-#: includes/public/class-zeko-jobs-ajax.php:2404
+#: includes/public/class-zeko-jobs-ajax.php:2413
 #, php-format
 msgid "Row %d: missing title."
 msgstr ""
 
-#: templates/single-job.php:297
+#: templates/single-job.php:299
 msgid "Salary Insights"
 msgstr ""
 
@@ -4236,11 +4236,11 @@ msgid "Salary Min (optional)"
 msgstr ""
 
 #: includes/public/class-zeko-jobs-shortcodes.php:475
-#: templates/single-job.php:195
+#: templates/single-job.php:197
 msgid "Salary Range"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:193
+#: includes/public/class-zeko-jobs-ajax.php:202
 msgid "Salary max must be >= salary min."
 msgstr ""
 
@@ -4257,11 +4257,11 @@ msgstr ""
 msgid "Sales"
 msgstr ""
 
-#: templates/single-job.php:302
+#: templates/single-job.php:304
 msgid "Same Category"
 msgstr ""
 
-#: templates/single-job.php:311
+#: templates/single-job.php:313
 msgid "Same Location"
 msgstr ""
 
@@ -4318,7 +4318,7 @@ msgstr ""
 msgid "Saved search"
 msgstr ""
 
-#: includes/admin/class-zeko-jobs-admin.php:1266 templates/single-job.php:850
+#: includes/admin/class-zeko-jobs-admin.php:1266 templates/single-job.php:852
 msgid "Scam or fraudulent"
 msgstr ""
 
@@ -4350,7 +4350,7 @@ msgstr ""
 msgid "Search by name or job..."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1833
+#: includes/public/class-zeko-jobs-ajax.php:1842
 msgid "Search deleted."
 msgstr ""
 
@@ -4366,7 +4366,7 @@ msgstr ""
 msgid "Search jobs..."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1789
+#: includes/public/class-zeko-jobs-ajax.php:1798
 msgid "Search saved."
 msgstr ""
 
@@ -4379,7 +4379,7 @@ msgstr ""
 msgid "Security check failed. Please try again."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2460
+#: includes/public/class-zeko-jobs-ajax.php:2469
 msgid "Select 2–5 applicants to compare."
 msgstr ""
 
@@ -4387,7 +4387,7 @@ msgstr ""
 msgid "Select a conversation"
 msgstr ""
 
-#: templates/company-profile.php:196
+#: templates/company-profile.php:198
 msgid "Select a position..."
 msgstr ""
 
@@ -4395,7 +4395,7 @@ msgstr ""
 msgid "Select all"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3800
+#: includes/public/class-zeko-jobs-ajax.php:3809
 msgid "Select at least 2 candidates to compare."
 msgstr ""
 
@@ -4403,7 +4403,7 @@ msgstr ""
 msgid "Select category..."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:4298
+#: includes/public/class-zeko-jobs-ajax.php:4307
 #: includes/public/class-zeko-jobs-shortcodes.php:675
 msgid "Select for bulk apply"
 msgstr ""
@@ -4494,31 +4494,31 @@ msgstr ""
 msgid "Set up your profile and connect with people who share your interests."
 msgstr ""
 
-#: templates/single-job.php:678
+#: templates/single-job.php:680
 msgid "Share on Facebook"
 msgstr ""
 
-#: templates/single-job.php:698
+#: templates/single-job.php:700
 msgid "Share on LinkedIn"
 msgstr ""
 
-#: templates/single-job.php:688
+#: templates/single-job.php:690
 msgid "Share on Twitter"
 msgstr ""
 
-#: templates/single-job.php:671
+#: templates/single-job.php:673
 msgid "Share this job"
 msgstr ""
 
-#: templates/single-job.php:710
+#: templates/single-job.php:712
 msgid "Share via Email"
 msgstr ""
 
-#: templates/single-job.php:478
+#: templates/single-job.php:480
 msgid "Share your experience (optional)..."
 msgstr ""
 
-#: templates/company-profile.php:215
+#: templates/company-profile.php:217
 msgid "Share your experience working with this company..."
 msgstr ""
 
@@ -4556,7 +4556,7 @@ msgstr ""
 #: includes/public/class-zeko-jobs-shortcodes.php:2171
 #: includes/public/class-zeko-jobs-shortcodes.php:2202
 #: includes/public/class-zeko-jobs-shortcodes.php:3269
-#: templates/single-job.php:248
+#: templates/single-job.php:250
 msgid "Skills"
 msgstr ""
 
@@ -4564,7 +4564,7 @@ msgstr ""
 msgid "Skip to job listings"
 msgstr ""
 
-#: zeko-jobs.php:138
+#: zeko-jobs.php:139
 msgid "Some Zeko Jobs candidate documents could not be erased."
 msgstr ""
 
@@ -4597,12 +4597,12 @@ msgstr ""
 msgid "Status change"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:907
+#: includes/public/class-zeko-jobs-ajax.php:916
 #: includes/public/class-zeko-jobs-public.php:173
 msgid "Status updated."
 msgstr ""
 
-#: zeko-jobs.php:99
+#: zeko-jobs.php:100
 msgid "Stored at"
 msgstr ""
 
@@ -4621,15 +4621,15 @@ msgid "Submit All Applications"
 msgstr ""
 
 #: includes/public/class-zeko-jobs-shortcodes.php:945
-#: templates/single-job.php:648
+#: templates/single-job.php:650
 msgid "Submit Application"
 msgstr ""
 
-#: templates/single-job.php:864
+#: templates/single-job.php:866
 msgid "Submit Report"
 msgstr ""
 
-#: templates/company-profile.php:217 templates/single-job.php:479
+#: templates/company-profile.php:219 templates/single-job.php:481
 msgid "Submit Review"
 msgstr ""
 
@@ -4654,7 +4654,7 @@ msgstr ""
 msgid "Tell employers why you are a great fit..."
 msgstr ""
 
-#: templates/single-job.php:621
+#: templates/single-job.php:623
 msgid "Tell the employer why you are a great fit..."
 msgstr ""
 
@@ -4675,8 +4675,8 @@ msgstr ""
 msgid "Template Title"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2903
-#: includes/public/class-zeko-jobs-ajax.php:3210
+#: includes/public/class-zeko-jobs-ajax.php:2912
+#: includes/public/class-zeko-jobs-ajax.php:3219
 #: includes/public/class-zeko-jobs-messaging.php:1234
 msgid "Template deleted."
 msgstr ""
@@ -4685,13 +4685,13 @@ msgstr ""
 msgid "Template not found or you cannot edit it."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2895
+#: includes/public/class-zeko-jobs-ajax.php:2904
 #: includes/public/class-zeko-jobs-messaging.php:1231
 msgid "Template not found."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2870
-#: includes/public/class-zeko-jobs-ajax.php:3189
+#: includes/public/class-zeko-jobs-ajax.php:2879
+#: includes/public/class-zeko-jobs-ajax.php:3198
 #: includes/public/class-zeko-jobs-messaging.php:1208
 msgid "Template saved."
 msgstr ""
@@ -4713,15 +4713,15 @@ msgstr ""
 msgid "Thank you for your application"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1464
+#: includes/public/class-zeko-jobs-ajax.php:1473
 msgid "Thank you. This listing has been reported for review."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2107
+#: includes/public/class-zeko-jobs-ajax.php:2116
 msgid "The document file is missing."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:793
+#: includes/public/class-zeko-jobs-ajax.php:802
 msgid "Theme messaging system is currently unavailable."
 msgstr ""
 
@@ -4731,7 +4731,7 @@ msgid ""
 "email preferences."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1530
+#: includes/public/class-zeko-jobs-ajax.php:1539
 msgid "This feature is available to employers."
 msgstr ""
 
@@ -4743,7 +4743,7 @@ msgid ""
 "position."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:453
+#: includes/public/class-zeko-jobs-ajax.php:462
 msgid "This job no longer exists."
 msgstr ""
 
@@ -4751,7 +4751,7 @@ msgstr ""
 msgid "Time"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2309
+#: includes/public/class-zeko-jobs-ajax.php:2318
 msgid "Time slots proposed."
 msgstr ""
 
@@ -4782,7 +4782,7 @@ msgstr ""
 msgid "Toggle dark mode"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:412
+#: includes/public/class-zeko-jobs-ajax.php:421
 msgid "Too many applications. Please try again later."
 msgstr ""
 
@@ -4790,15 +4790,15 @@ msgstr ""
 msgid "Too many job posts today. Please try again later."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:777
+#: includes/public/class-zeko-jobs-ajax.php:786
 msgid "Too many messages. Please slow down."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:4101
+#: includes/public/class-zeko-jobs-ajax.php:4110
 msgid "Too many requests. Please slow down."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2763
+#: includes/public/class-zeko-jobs-ajax.php:2772
 msgid "Too many reviews today. Please try again later."
 msgstr ""
 
@@ -4823,11 +4823,11 @@ msgid "Total Applicants"
 msgstr ""
 
 #: includes/ecosystem/class-zeko-jobs-ecosystem.php:165
-#: includes/public/class-zeko-jobs-ajax.php:3540
+#: includes/public/class-zeko-jobs-ajax.php:3549
 msgid "Total Applications"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3538
+#: includes/public/class-zeko-jobs-ajax.php:3547
 #: includes/public/class-zeko-jobs-shortcodes.php:2518
 #: includes/public/class-zeko-jobs-shortcodes.php:2696
 #: includes/public/class-zeko-jobs-shortcodes.php:3298
@@ -4844,12 +4844,12 @@ msgstr ""
 msgid "Transaction History"
 msgstr ""
 
-#: templates/single-job.php:691
+#: templates/single-job.php:693
 msgid "Twitter"
 msgstr ""
 
 #: includes/public/class-zeko-jobs-shortcodes.php:3178
-#: templates/company-profile.php:275
+#: templates/company-profile.php:277
 msgid "Twitter / X"
 msgstr ""
 
@@ -4868,8 +4868,8 @@ msgstr ""
 msgid "Type:"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1086
-#: includes/public/class-zeko-jobs-ajax.php:1740
+#: includes/public/class-zeko-jobs-ajax.php:1095
+#: includes/public/class-zeko-jobs-ajax.php:1749
 msgid "Unauthorized."
 msgstr ""
 
@@ -4881,8 +4881,8 @@ msgstr ""
 msgid "Unfeature Job"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3539
-#: includes/public/class-zeko-jobs-ajax.php:3543
+#: includes/public/class-zeko-jobs-ajax.php:3548
+#: includes/public/class-zeko-jobs-ajax.php:3552
 #: includes/public/class-zeko-jobs-shortcodes.php:2697
 msgid "Unique Visitors"
 msgstr ""
@@ -4899,7 +4899,7 @@ msgstr ""
 msgid "Unsubscribe"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2122
+#: includes/public/class-zeko-jobs-ajax.php:2131
 msgid "Unsupported document type."
 msgstr ""
 
@@ -4907,7 +4907,7 @@ msgstr ""
 msgid "Untitled"
 msgstr ""
 
-#: templates/single-job.php:139
+#: templates/single-job.php:141
 msgid "Up to"
 msgstr ""
 
@@ -4946,8 +4946,8 @@ msgid ""
 "applications."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:508
-#: includes/public/class-zeko-jobs-ajax.php:663
+#: includes/public/class-zeko-jobs-ajax.php:517
+#: includes/public/class-zeko-jobs-ajax.php:672
 msgid "Upload failed."
 msgstr ""
 
@@ -4957,7 +4957,7 @@ msgid "Upload new resume"
 msgstr ""
 
 #: includes/public/class-zeko-jobs-shortcodes.php:1020
-#: templates/single-job.php:627
+#: templates/single-job.php:629
 msgid "Upload resume file"
 msgstr ""
 
@@ -4990,7 +4990,7 @@ msgstr ""
 msgid "Verified"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:4352
+#: includes/public/class-zeko-jobs-ajax.php:4361
 #: includes/public/class-zeko-jobs-shortcodes.php:738
 msgid "Verified Employer"
 msgstr ""
@@ -5016,11 +5016,11 @@ msgstr ""
 msgid "View All Matching Jobs"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-public.php:969
+#: includes/public/class-zeko-jobs-public.php:975
 msgid "View All My Applications"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-public.php:918
+#: includes/public/class-zeko-jobs-public.php:924
 msgid "View All My Jobs"
 msgstr ""
 
@@ -5064,7 +5064,7 @@ msgstr ""
 msgid "Viewed at"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3543
+#: includes/public/class-zeko-jobs-ajax.php:3552
 #: includes/public/class-zeko-jobs-shortcodes.php:3327
 msgid "Views"
 msgstr ""
@@ -5073,7 +5073,7 @@ msgstr ""
 msgid "Visit site"
 msgstr ""
 
-#: templates/single-job.php:780
+#: templates/single-job.php:782
 msgid "Visit website"
 msgstr ""
 
@@ -5089,7 +5089,7 @@ msgstr ""
 msgid "Wallet Balance"
 msgstr ""
 
-#: templates/company-profile.php:91
+#: templates/company-profile.php:93
 msgid "Watch company video"
 msgstr ""
 
@@ -5120,7 +5120,7 @@ msgstr ""
 msgid "What you can do here"
 msgstr ""
 
-#: templates/company-profile.php:194
+#: templates/company-profile.php:196
 msgid "Which position did you apply for?"
 msgstr ""
 
@@ -5148,7 +5148,7 @@ msgid "Work Experience"
 msgstr ""
 
 #: includes/public/class-zeko-jobs-shortcodes.php:1300
-#: templates/single-job.php:205 templates/single-job.php:411
+#: templates/single-job.php:207 templates/single-job.php:413
 msgid "Work Model"
 msgstr ""
 
@@ -5156,7 +5156,7 @@ msgstr ""
 msgid "Work Style"
 msgstr ""
 
-#: templates/company-profile.php:172
+#: templates/company-profile.php:174
 msgid "Write a Review"
 msgstr ""
 
@@ -5176,15 +5176,15 @@ msgstr ""
 msgid "Yes"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1506
+#: includes/public/class-zeko-jobs-ajax.php:1515
 msgid "You are no longer following this company."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2192
+#: includes/public/class-zeko-jobs-ajax.php:2201
 msgid "You are not the employer for this application."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1506
+#: includes/public/class-zeko-jobs-ajax.php:1515
 msgid "You are now following this company."
 msgstr ""
 
@@ -5202,30 +5202,38 @@ msgstr ""
 msgid "You are receiving this email because you have an account on %s."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1484
+#. translators: %d: active job post cap.
+#: includes/public/class-zeko-jobs-ajax.php:148
+#, php-format
+msgid ""
+"You can keep up to %d active job posts on the free plan. Close one to post "
+"another, or upgrade to post more."
+msgstr ""
+
+#: includes/public/class-zeko-jobs-ajax.php:1493
 msgid "You cannot follow your own company."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:789
+#: includes/public/class-zeko-jobs-ajax.php:798
 msgid "You cannot message yourself."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1456
+#: includes/public/class-zeko-jobs-ajax.php:1465
 msgid "You cannot report your own listing."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1137
-#: includes/public/class-zeko-jobs-ajax.php:1166
-#: includes/public/class-zeko-jobs-ajax.php:1191
-#: includes/public/class-zeko-jobs-ajax.php:2272
+#: includes/public/class-zeko-jobs-ajax.php:1146
+#: includes/public/class-zeko-jobs-ajax.php:1175
+#: includes/public/class-zeko-jobs-ajax.php:1200
+#: includes/public/class-zeko-jobs-ajax.php:2281
 msgid "You do not have access to this application."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2642
+#: includes/public/class-zeko-jobs-ajax.php:2651
 msgid "You do not have access to this interview."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2092
+#: includes/public/class-zeko-jobs-ajax.php:2101
 msgid "You do not have permission to download this document."
 msgstr ""
 
@@ -5233,7 +5241,7 @@ msgstr ""
 msgid "You do not have permission to export jobs."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:999
+#: includes/public/class-zeko-jobs-ajax.php:1008
 msgid "You do not have permission to feature this job."
 msgstr ""
 
@@ -5242,34 +5250,34 @@ msgstr ""
 msgid "You do not have permission to perform this action."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:840
+#: includes/public/class-zeko-jobs-ajax.php:849
 msgid "You do not have permission to update this application."
 msgstr ""
 
 #. translators: 1: number of matched skills. 2: total required skills
-#: includes/public/class-zeko-jobs-ajax.php:4398
+#: includes/public/class-zeko-jobs-ajax.php:4407
 #: includes/public/class-zeko-jobs-shortcodes.php:815
 #, php-format
 msgid "You have %1$d of %2$d required skills"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:432
+#: includes/public/class-zeko-jobs-ajax.php:441
 msgid "You have already applied for this job."
 msgstr ""
 
-#: templates/single-job.php:609
+#: templates/single-job.php:611
 msgid "You have already applied for this position."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:3127
+#: includes/public/class-zeko-jobs-ajax.php:3136
 msgid "You have already applied to this job."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1364
+#: includes/public/class-zeko-jobs-ajax.php:1373
 msgid "You have already applied."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:1461
+#: includes/public/class-zeko-jobs-ajax.php:1470
 msgid "You have already reported this listing. Our team will review it."
 msgstr ""
 
@@ -5290,8 +5298,8 @@ msgid "You have not posted any jobs yet."
 msgstr ""
 
 #. translators: %d: max applications per day
-#: includes/public/class-zeko-jobs-ajax.php:443
-#: includes/public/class-zeko-jobs-ajax.php:607
+#: includes/public/class-zeko-jobs-ajax.php:452
+#: includes/public/class-zeko-jobs-ajax.php:616
 #, php-format
 msgid "You have reached the maximum of %d applications per day."
 msgstr ""
@@ -5303,11 +5311,11 @@ msgid ""
 "You have scheduled an interview with %1$s for the \"%2$s\" position on %3$s."
 msgstr ""
 
-#: templates/single-job.php:525
+#: templates/single-job.php:527
 msgid "You have:"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-public.php:971
+#: includes/public/class-zeko-jobs-public.php:977
 msgid "You haven't applied for any jobs yet."
 msgstr ""
 
@@ -5315,7 +5323,7 @@ msgstr ""
 msgid "You haven't applied to any jobs yet."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-public.php:920
+#: includes/public/class-zeko-jobs-public.php:926
 msgid "You haven't posted any jobs yet."
 msgstr ""
 
@@ -5323,22 +5331,22 @@ msgstr ""
 msgid "You must be logged in to view your messages."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:2798
-#: includes/public/class-zeko-jobs-ajax.php:2833
-#: includes/public/class-zeko-jobs-ajax.php:2883
-#: includes/public/class-zeko-jobs-ajax.php:2916
-#: includes/public/class-zeko-jobs-ajax.php:2934
-#: includes/public/class-zeko-jobs-ajax.php:2996
-#: includes/public/class-zeko-jobs-ajax.php:3060
-#: includes/public/class-zeko-jobs-ajax.php:3083
-#: includes/public/class-zeko-jobs-ajax.php:3108
-#: includes/public/class-zeko-jobs-ajax.php:3166
-#: includes/public/class-zeko-jobs-ajax.php:3199
-#: includes/public/class-zeko-jobs-ajax.php:3220
-#: includes/public/class-zeko-jobs-ajax.php:3255
-#: includes/public/class-zeko-jobs-ajax.php:3284
-#: includes/public/class-zeko-jobs-ajax.php:3311
-#: includes/public/class-zeko-jobs-ajax.php:3412
+#: includes/public/class-zeko-jobs-ajax.php:2807
+#: includes/public/class-zeko-jobs-ajax.php:2842
+#: includes/public/class-zeko-jobs-ajax.php:2892
+#: includes/public/class-zeko-jobs-ajax.php:2925
+#: includes/public/class-zeko-jobs-ajax.php:2943
+#: includes/public/class-zeko-jobs-ajax.php:3005
+#: includes/public/class-zeko-jobs-ajax.php:3069
+#: includes/public/class-zeko-jobs-ajax.php:3092
+#: includes/public/class-zeko-jobs-ajax.php:3117
+#: includes/public/class-zeko-jobs-ajax.php:3175
+#: includes/public/class-zeko-jobs-ajax.php:3208
+#: includes/public/class-zeko-jobs-ajax.php:3229
+#: includes/public/class-zeko-jobs-ajax.php:3264
+#: includes/public/class-zeko-jobs-ajax.php:3293
+#: includes/public/class-zeko-jobs-ajax.php:3320
+#: includes/public/class-zeko-jobs-ajax.php:3421
 #: includes/public/class-zeko-jobs-messaging.php:831
 #: includes/public/class-zeko-jobs-messaging.php:869
 #: includes/public/class-zeko-jobs-messaging.php:909
@@ -5356,7 +5364,7 @@ msgstr ""
 msgid "You must be logged in."
 msgstr ""
 
-#: templates/company-profile.php:221
+#: templates/company-profile.php:223
 msgid ""
 "You need to apply for a position at this company before leaving a review."
 msgstr ""
@@ -5371,15 +5379,15 @@ msgstr ""
 msgid "You've Been Offered the Position"
 msgstr ""
 
-#: templates/company-profile.php:203
+#: templates/company-profile.php:205
 msgid "Your Rating"
 msgstr ""
 
-#: templates/company-profile.php:214
+#: templates/company-profile.php:216
 msgid "Your Review"
 msgstr ""
 
-#: templates/single-job.php:518
+#: templates/single-job.php:520
 msgid "Your Skills Match"
 msgstr ""
 
@@ -5398,7 +5406,7 @@ msgid "Your application for \"%1$s\" has been updated to: %2$s"
 msgstr ""
 
 #. translators: %1$s: job title, %2$s: new status
-#: includes/public/class-zeko-jobs-ajax.php:894
+#: includes/public/class-zeko-jobs-ajax.php:903
 #, php-format
 msgid "Your application for \"%1$s\" is now: %2$s"
 msgstr ""
@@ -5409,13 +5417,13 @@ msgid ""
 "whatever catches your eye below."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:4084
+#: includes/public/class-zeko-jobs-ajax.php:4093
 msgid ""
 "Your deletion request has been cancelled. Your account and data will remain "
 "active."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:4051
+#: includes/public/class-zeko-jobs-ajax.php:4060
 msgid ""
 "Your deletion request has been received. Your data will be permanently "
 "removed after a 30-day grace period. You can cancel this request within that "
@@ -5484,7 +5492,7 @@ msgstr ""
 msgid "Zeko Jobs Archive Block"
 msgstr ""
 
-#: zeko-jobs.php:75 zeko-jobs.php:87 zeko-jobs.php:120
+#: zeko-jobs.php:76 zeko-jobs.php:88 zeko-jobs.php:121
 msgid "Zeko Jobs Candidate Documents"
 msgstr ""
 
@@ -5514,28 +5522,28 @@ msgstr ""
 msgid "ZekoPay integration for job posting fees, boosts, and listing packs."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:4457
-#: includes/public/class-zeko-jobs-ajax.php:4544
+#: includes/public/class-zeko-jobs-ajax.php:4466
+#: includes/public/class-zeko-jobs-ajax.php:4553
 msgid "ZekoPay is not available."
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:877
-#: includes/public/class-zeko-jobs-ajax.php:946
+#: includes/public/class-zeko-jobs-ajax.php:886
+#: includes/public/class-zeko-jobs-ajax.php:955
 msgid "a job"
 msgstr ""
 
 #: includes/public/class-zeko-jobs-messaging.php:1164
 #: includes/public/class-zeko-jobs-shortcodes.php:2348
-#: templates/company-profile.php:234 templates/single-job.php:155
+#: templates/company-profile.php:236 templates/single-job.php:157
 msgid "ago"
 msgstr ""
 
 #: includes/public/class-zeko-jobs-shortcodes.php:2604
-#: templates/single-job.php:169
+#: templates/single-job.php:171
 msgid "applications"
 msgstr ""
 
-#: templates/single-job.php:341
+#: templates/single-job.php:343
 msgid "avg"
 msgstr ""
 
@@ -5651,7 +5659,7 @@ msgstr ""
 msgid "level: %s"
 msgstr ""
 
-#: includes/public/class-zeko-jobs-ajax.php:4337
+#: includes/public/class-zeko-jobs-ajax.php:4346
 #: includes/public/class-zeko-jobs-shortcodes.php:716
 #: includes/public/class-zeko-jobs-shortcodes.php:2269
 msgid "match"
@@ -5663,7 +5671,7 @@ msgstr ""
 msgid "matching \"%s\""
 msgstr ""
 
-#: templates/company-profile.php:160
+#: templates/company-profile.php:162
 msgid "out of 5"
 msgstr ""
 
@@ -5677,7 +5685,7 @@ msgstr ""
 msgid "stage-slug"
 msgstr ""
 
-#: templates/company-profile.php:225
+#: templates/company-profile.php:227
 msgid "to write a review."
 msgstr ""
 
